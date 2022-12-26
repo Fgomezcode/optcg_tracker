@@ -1,0 +1,2222 @@
+{
+    "ST01-001": {
+        "deck": "ST01",
+        "card_code": "ST01-001",
+        "rarity": "L",
+        "kind": "LEADER",
+        "text": "Effect[Activate: Main] [Once Per Turn] Give this Leader or 1 of your Characters up to 1 rested DON!! card.",
+        "name": "Monkey.D.Luffy",
+        "images": "ST01-001.png",
+        "collected": "true"
+    },
+    "ST01-002": {
+        "deck": "ST01",
+        "card_code": "ST01-002",
+        "rarity": "C",
+        "kind": "CHARACTER",
+        "text": "Effect[DON!! x2] [When Attacking] Your opponent cannot activate a [Blocker] Character that has 5000 or more power during this battle.",
+        "name": "Usopp",
+        "images": "ST01-002.png",
+        "collected": "true"
+    },
+    "ST01-003": {
+        "deck": "ST01",
+        "card_code": "ST01-003",
+        "rarity": "C",
+        "kind": "CHARACTER",
+        "text": "Effect-",
+        "name": "Karoo",
+        "images": "ST01-003.png",
+        "collected": "false"
+    },
+    "ST01-004": {
+        "deck": "ST01",
+        "card_code": "ST01-004",
+        "rarity": "C",
+        "kind": "CHARACTER",
+        "text": "Effect[DON!! x2] This Character gains [Rush].(This card can attack on the turn in which it is played.)",
+        "name": "Sanji",
+        "images": "ST01-004.png",
+        "collected": "false"
+    },
+    "ST01-005": {
+        "deck": "ST01",
+        "card_code": "ST01-005",
+        "rarity": "C",
+        "kind": "CHARACTER",
+        "text": "Effect[DON!! x1] [When Attacking] Up to 1 of your Leader or Character cards other than this card gains +1000 power during this turn.",
+        "name": "Jinbe",
+        "images": "ST01-005.png",
+        "collected": "false"
+    },
+    "ST01-006": {
+        "deck": "ST01",
+        "card_code": "ST01-006",
+        "rarity": "C",
+        "kind": "CHARACTER",
+        "text": "Effect[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+        "name": "Tony Tony.Chopper",
+        "images": "ST01-006.png",
+        "collected": "false"
+    },
+    "ST01-007": {
+        "deck": "ST01",
+        "card_code": "ST01-007",
+        "rarity": "C",
+        "kind": "CHARACTER",
+        "text": "Effect[Activate: Main] [Once Per Turn] Give up to 1 rested DON!! card to your Leader or 1 of your Characters.",
+        "name": "Nami",
+        "images": "ST01-007.png",
+        "collected": "false"
+    },
+    "ST01-008": {
+        "deck": "ST01",
+        "card_code": "ST01-008",
+        "rarity": "C",
+        "kind": "CHARACTER",
+        "text": "Effect-",
+        "name": "Nico Robin",
+        "images": "ST01-008.png",
+        "collected": "false"
+    },
+    "ST01-009": {
+        "deck": "ST01",
+        "card_code": "ST01-009",
+        "rarity": "C",
+        "kind": "CHARACTER",
+        "text": "Effect-",
+        "name": "Nefeltari Vivi",
+        "images": "ST01-009.png",
+        "collected": "false"
+    },
+    "ST01-010": {
+        "deck": "ST01",
+        "card_code": "ST01-010",
+        "rarity": "C",
+        "kind": "CHARACTER",
+        "text": "Effect-",
+        "name": "Franky",
+        "images": "ST01-010.png",
+        "collected": "true"
+    },
+    "ST01-011": {
+        "deck": "ST01",
+        "card_code": "ST01-011",
+        "rarity": "C",
+        "kind": "CHARACTER",
+        "text": "Effect[On Play] Give up to 2 rested DON!! cards to your Leader or 1 of your Characters.",
+        "name": "Brook",
+        "images": "ST01-011.png",
+        "collected": "true"
+    },
+    "ST01-012": {
+        "deck": "ST01",
+        "card_code": "ST01-012",
+        "rarity": "SR",
+        "kind": "CHARACTER",
+        "text": "Effect[Rush] (This card can attack on the turn in which it is played.)[DON!! x2] [When Attacking] Your opponent cannot activate [Blocker] during this battle.",
+        "name": "Monkey.D.Luffy",
+        "images": "ST01-012.png",
+        "collected": "false"
+    },
+    "ST01-013": {
+        "deck": "ST01",
+        "card_code": "ST01-013",
+        "rarity": "SR",
+        "kind": "CHARACTER",
+        "text": "Effect[DON!! x1] This Character gains +1000 power.",
+        "name": "Roronoa Zoro",
+        "images": "ST01-013.png",
+        "collected": "false"
+    },
+    "ST01-014": {
+        "deck": "ST01",
+        "card_code": "ST01-014",
+        "rarity": "C",
+        "kind": "EVENT",
+        "text": "Effect[Counter] Up to 1 of your Leader or Character cards gains +3000 power during this battle.",
+        "name": "Guard Point",
+        "images": "ST01-014.png",
+        "collected": "false"
+    },
+    "ST01-015": {
+        "deck": "ST01",
+        "card_code": "ST01-015",
+        "rarity": "C",
+        "kind": "EVENT",
+        "text": "Effect[Main] K.O. up to 1 of your opponent's Characters with 6000 power or less.",
+        "name": "Gum-Gum Jet Pistol",
+        "images": "ST01-015.png",
+        "collected": "false"
+    },
+    "ST01-016": {
+        "deck": "ST01",
+        "card_code": "ST01-016",
+        "rarity": "C",
+        "kind": "EVENT",
+        "text": "Effect[Main] Select up to 1 of your {Straw Hat Crew} type Leader or Character cards. Your opponent cannot activate [Blocker] if that Leader or Character attacks during this turn.",
+        "name": "Diable Jambe",
+        "images": "ST01-016.png",
+        "collected": "false"
+    },
+    "ST01-017": {
+        "deck": "ST01",
+        "card_code": "ST01-017",
+        "rarity": "C",
+        "kind": "STAGE",
+        "text": "Effect[Activate: Main] You may rest this Stage: Up to 1 {Straw Hat Crew} type Leader or Character card on your field gains +1000 power during this turn.",
+        "name": "Thousand Sunny",
+        "images": "ST01-017.png",
+        "collected": "false"
+    },
+    "ST02-001": {
+        "deck": "ST02",
+        "card_code": "ST02-001",
+        "rarity": "L",
+        "kind": "LEADER",
+        "text": "Effect[Activate: Main] [Once Per Turn]  ③ (You may rest the specified number of DON!! cards in your cost area.) You may trash 1 card from your hand: Set this Leader as active.",
+        "name": "Eustass\"Captain\"Kid",
+        "images": "ST02-001.png",
+        "collected": "false"
+    },
+    "ST02-002": {
+        "deck": "ST02",
+        "card_code": "ST02-002",
+        "rarity": "C",
+        "kind": "CHARACTER",
+        "text": "Effect-",
+        "name": "Vito",
+        "images": "ST02-002.png",
+        "collected": "false"
+    },
+    "ST02-003": {
+        "deck": "ST02",
+        "card_code": "ST02-003",
+        "rarity": "C",
+        "kind": "CHARACTER",
+        "text": "Effect[DON!! x1] If you have 3 or more Characters, this card gains +2000 power.",
+        "name": "Urouge",
+        "images": "ST02-003.png",
+        "collected": "false"
+    },
+    "ST02-004": {
+        "deck": "ST02",
+        "card_code": "ST02-004",
+        "rarity": "C",
+        "kind": "CHARACTER",
+        "text": "Effect[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+        "name": "Capone\"Gang\"Bege",
+        "images": "ST02-004.png",
+        "collected": "false"
+    },
+    "ST02-005": {
+        "deck": "ST02",
+        "card_code": "ST02-005",
+        "rarity": "C",
+        "kind": "CHARACTER",
+        "text": "Effect[On Play] K.O. up to 1 of your opponent's rested Characters with a cost of 3 or less.",
+        "name": "Killer",
+        "images": "ST02-005.png",
+        "collected": "false"
+    },
+    "ST02-006": {
+        "deck": "ST02",
+        "card_code": "ST02-006",
+        "rarity": "C",
+        "kind": "CHARACTER",
+        "text": "Effect-",
+        "name": "Koby",
+        "images": "ST02-006.png",
+        "collected": "false"
+    },
+    "ST02-007": {
+        "deck": "ST02",
+        "card_code": "ST02-007",
+        "rarity": "C",
+        "kind": "CHARACTER",
+        "text": "Effect[Activate: Main] ➀ (You may rest the specified number of DON!! cards in your cost area.) You may rest this card: Look at 5 cards from the top of your deck; reveal up to 1 {Supernovas} type card and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+        "name": "Jewelry Bonney",
+        "images": "ST02-007.png",
+        "collected": "false"
+    },
+    "ST02-008": {
+        "deck": "ST02",
+        "card_code": "ST02-008",
+        "rarity": "C",
+        "kind": "CHARACTER",
+        "text": "Effect[DON!! x1] [When Attacking] Rest up to 1 of your opponent's DON!! cards.",
+        "name": "Scratchmen Apoo",
+        "images": "ST02-008.png",
+        "collected": "false"
+    },
+    "ST02-009": {
+        "deck": "ST02",
+        "card_code": "ST02-009",
+        "rarity": "SR",
+        "kind": "CHARACTER",
+        "text": "Effect[On Play] Set up to 1 of your {Supernovas} or {Heart Pirates} type rested Characters with a cost of 5 or less as active.",
+        "name": "Trafalgar Law",
+        "images": "ST02-009.png",
+        "collected": "false"
+    },
+    "ST02-010": {
+        "deck": "ST02",
+        "card_code": "ST02-010",
+        "rarity": "C",
+        "kind": "CHARACTER",
+        "text": "Effect[DON!! x1] [Once Per Turn] [Your Turn] If this Character battles your opponent's Character, set this card as active.",
+        "name": "Basil Hawkins",
+        "images": "ST02-010.png",
+        "collected": "false"
+    },
+    "ST02-011": {
+        "deck": "ST02",
+        "card_code": "ST02-011",
+        "rarity": "C",
+        "kind": "CHARACTER",
+        "text": "Effect-",
+        "name": "Heat",
+        "images": "ST02-011.png",
+        "collected": "false"
+    },
+    "ST02-012": {
+        "deck": "ST02",
+        "card_code": "ST02-012",
+        "rarity": "C",
+        "kind": "CHARACTER",
+        "text": "Effect-",
+        "name": "Bepo",
+        "images": "ST02-012.png",
+        "collected": "false"
+    },
+    "ST02-013": {
+        "deck": "ST02",
+        "card_code": "ST02-013",
+        "rarity": "SR",
+        "kind": "CHARACTER",
+        "text": "Effect[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[DON!! x1] [End of Your Turn] Set this card as active.",
+        "name": "Eustass\"Captain\"Kid",
+        "images": "ST02-013.png",
+        "collected": "false"
+    },
+    "ST02-014": {
+        "deck": "ST02",
+        "card_code": "ST02-014",
+        "rarity": "C",
+        "kind": "CHARACTER",
+        "text": "Effect[DON!! x1] [Your Turn] If this Character is rested, your {Supernovas} or {Navy} type Leaders and Characters gain +1000 power.",
+        "name": "X.Drake",
+        "images": "ST02-014.png",
+        "collected": "false"
+    },
+    "ST02-015": {
+        "deck": "ST02",
+        "card_code": "ST02-015",
+        "rarity": "C",
+        "kind": "EVENT",
+        "text": "Effect[Counter] Up to 1 of your Leader or Character cards gains +2000 power during this battle. Then, set up to 1 of your DON!! cards as active.",
+        "name": "Scalpel",
+        "images": "ST02-015.png",
+        "collected": "false"
+    },
+    "ST02-016": {
+        "deck": "ST02",
+        "card_code": "ST02-016",
+        "rarity": "C",
+        "kind": "EVENT",
+        "text": "Effect[Counter] Up to 1 of your Leader or Character cards gains +4000 power during this battle. Then, set up to 1 of your DON!! cards as active.",
+        "name": "Repel",
+        "images": "ST02-016.png",
+        "collected": "false"
+    },
+    "ST02-017": {
+        "deck": "ST02",
+        "card_code": "ST02-017",
+        "rarity": "C",
+        "kind": "EVENT",
+        "text": "Effect[Main] Rest up to 1 of your opponent's Characters.",
+        "name": "Straw Sword",
+        "images": "ST02-017.png",
+        "collected": "false"
+    },
+    "ST03-001": {
+        "deck": "ST03",
+        "card_code": "ST03-001",
+        "rarity": "L",
+        "kind": "LEADER",
+        "text": "Effect[Activate: Main] [Once Per Turn] DON!! −4 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Return up to 1 Character with a cost of 5 or less to the owner's hand.",
+        "name": "Crocodile",
+        "images": "ST03-001.png",
+        "collected": "false"
+    },
+    "ST03-002": {
+        "deck": "ST03",
+        "card_code": "ST03-002",
+        "rarity": "C",
+        "kind": "CHARACTER",
+        "text": "Effect-",
+        "name": "Edward Weevil",
+        "images": "ST03-002.png",
+        "collected": "false"
+    },
+    "ST03-003": {
+        "deck": "ST03",
+        "card_code": "ST03-003",
+        "rarity": "SR",
+        "kind": "CHARACTER",
+        "text": "Effect[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[DON!! x1] [On Block] Place up to 1 Character with a cost of 2 or less at the bottom of the owner's deck.",
+        "name": "Crocodile",
+        "images": "ST03-003.png",
+        "collected": "false"
+    },
+    "ST03-004": {
+        "deck": "ST03",
+        "card_code": "ST03-004",
+        "rarity": "C",
+        "kind": "CHARACTER",
+        "text": "Effect[On Play] Add up to 1 {The Seven Warlords of the Sea} or {Thriller Bark Pirates} type Character with a cost of 4 or less other than [Gecko Moria] from your trash to your hand.",
+        "name": "Gecko Moria",
+        "images": "ST03-004.png",
+        "collected": "false"
+    },
+    "ST03-005": {
+        "deck": "ST03",
+        "card_code": "ST03-005",
+        "rarity": "C",
+        "kind": "CHARACTER",
+        "text": "Effect[DON!! x1] [When Attacking] Draw 2 cards and trash 2 cards from your hand.",
+        "name": "Dracule Mihawk",
+        "images": "ST03-005.png",
+        "collected": "false"
+    },
+    "ST03-006": {
+        "deck": "ST03",
+        "card_code": "ST03-006",
+        "rarity": "C",
+        "kind": "CHARACTER",
+        "text": "Effect-",
+        "name": "Jinbe",
+        "images": "ST03-006.png",
+        "collected": "false"
+    },
+    "ST03-007": {
+        "deck": "ST03",
+        "card_code": "ST03-007",
+        "rarity": "C",
+        "kind": "CHARACTER",
+        "text": "Effect[DON!! x1] [Activate: Main] [Once Per Turn] ➁ (You may rest the specified number of DON!! cards in your cost area.): Play up to 1 [Pacifista] with a cost of 4 or less from your deck, then shuffle your deck.",
+        "name": "Sentomaru",
+        "images": "ST03-007.png",
+        "collected": "false"
+    },
+    "ST03-008": {
+        "deck": "ST03",
+        "card_code": "ST03-008",
+        "rarity": "C",
+        "kind": "CHARACTER",
+        "text": "Effect[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+        "name": "Trafalgar Law",
+        "images": "ST03-008.png",
+        "collected": "false"
+    },
+    "ST03-009": {
+        "deck": "ST03",
+        "card_code": "ST03-009",
+        "rarity": "SR",
+        "kind": "CHARACTER",
+        "text": "Effect[On Play] Return up to 1 Character with a cost of 7 or less to the owner's hand.",
+        "name": "Donquixote Doflamingo",
+        "images": "ST03-009.png",
+        "collected": "false"
+    },
+    "ST03-010": {
+        "deck": "ST03",
+        "card_code": "ST03-010",
+        "rarity": "C",
+        "kind": "CHARACTER",
+        "text": "Effect[On Play] Look at 3 cards from the top of your deck and return them to the top or bottom of the deck in any order.",
+        "name": "Bartholomew Kuma",
+        "images": "ST03-010.png",
+        "collected": "false"
+    },
+    "ST03-011": {
+        "deck": "ST03",
+        "card_code": "ST03-011",
+        "rarity": "C",
+        "kind": "CHARACTER",
+        "text": "Effect-",
+        "name": "Buggy",
+        "images": "ST03-011.png",
+        "collected": "false"
+    },
+    "ST03-012": {
+        "deck": "ST03",
+        "card_code": "ST03-012",
+        "rarity": "C",
+        "kind": "CHARACTER",
+        "text": "Effect-",
+        "name": "Pacifista",
+        "images": "ST03-012.png",
+        "collected": "false"
+    },
+    "ST03-013": {
+        "deck": "ST03",
+        "card_code": "ST03-013",
+        "rarity": "C",
+        "kind": "CHARACTER",
+        "text": "Effect[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+        "name": "Boa Hancock",
+        "images": "ST03-013.png",
+        "collected": "false"
+    },
+    "ST03-014": {
+        "deck": "ST03",
+        "card_code": "ST03-014",
+        "rarity": "C",
+        "kind": "CHARACTER",
+        "text": "Effect[On Play] Return up to 1 Character with a cost of 3 or less to the owner's hand.",
+        "name": "Marshall.D.Teach",
+        "images": "ST03-014.png",
+        "collected": "false"
+    },
+    "ST03-015": {
+        "deck": "ST03",
+        "card_code": "ST03-015",
+        "rarity": "C",
+        "kind": "EVENT",
+        "text": "Effect[Main] Return up to 1 Character with a cost of 7 or less to the owner's hand.",
+        "name": "Sables",
+        "images": "ST03-015.png",
+        "collected": "false"
+    },
+    "ST03-016": {
+        "deck": "ST03",
+        "card_code": "ST03-016",
+        "rarity": "C",
+        "kind": "EVENT",
+        "text": "Effect[Counter] Return up to 1 Character with a cost of 3 or less to the owner's hand.",
+        "name": "Thrust Pad Cannon",
+        "images": "ST03-016.png",
+        "collected": "false"
+    },
+    "ST03-017": {
+        "deck": "ST03",
+        "card_code": "ST03-017",
+        "rarity": "C",
+        "kind": "EVENT",
+        "text": "Effect[Counter] Up to 1 of your Leader or Character cards gains +4000 power during this battle. Then, draw 1 card if you have 3 or less cards in your hand.",
+        "name": "Love-Love Mellow",
+        "images": "ST03-017.png",
+        "collected": "false"
+    },
+    "ST04-001": {
+        "deck": "ST04",
+        "card_code": "ST04-001",
+        "rarity": "L",
+        "kind": "LEADER",
+        "text": "Effect[Activate: Main] [Once Per Turn] DON!! −7 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Trash up to 1 of your opponent's Life cards.",
+        "name": "Kaido",
+        "images": "ST04-001.png",
+        "collected": "false"
+    },
+    "ST04-002": {
+        "deck": "ST04",
+        "card_code": "ST04-002",
+        "rarity": "C",
+        "kind": "CHARACTER",
+        "text": "Effect[On Play] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Play up to 1 [Page One] card with a cost of 4 or less from your hand.",
+        "name": "Ulti",
+        "images": "ST04-002.png",
+        "collected": "false"
+    },
+    "ST04-003": {
+        "deck": "ST04",
+        "card_code": "ST04-003",
+        "rarity": "SR",
+        "kind": "CHARACTER",
+        "text": "Effect[On Play] DON!! −5 (You may return the specified number of DON!! cards from your field to your DON!! deck.): K.O. up to 1 of your opponent's Characters with a cost of 6 or less. This Character gains [Rush] during this turn.(This card can attack on the turn in which it is played.)",
+        "name": "Kaido",
+        "images": "ST04-003.png",
+        "collected": "false"
+    },
+    "ST04-004": {
+        "deck": "ST04",
+        "card_code": "ST04-004",
+        "rarity": "SR",
+        "kind": "CHARACTER",
+        "text": "Effect[On Play] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): K.O. up to 1 of your opponent's Characters with a cost of 4 or less.",
+        "name": "King",
+        "images": "ST04-004.png",
+        "collected": "false"
+    },
+    "ST04-005": {
+        "deck": "ST04",
+        "card_code": "ST04-005",
+        "rarity": "C",
+        "kind": "CHARACTER",
+        "text": "Effect[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Play] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Draw 2 cards and trash 1 card from your hand.",
+        "name": "Queen",
+        "images": "ST04-005.png",
+        "collected": "false"
+    },
+    "ST04-006": {
+        "deck": "ST04",
+        "card_code": "ST04-006",
+        "rarity": "C",
+        "kind": "CHARACTER",
+        "text": "Effect[On Play] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Draw 1 card.",
+        "name": "Sasaki",
+        "images": "ST04-006.png",
+        "collected": "false"
+    },
+    "ST04-007": {
+        "deck": "ST04",
+        "card_code": "ST04-007",
+        "rarity": "C",
+        "kind": "CHARACTER",
+        "text": "Effect-",
+        "name": "Sheepshead",
+        "images": "ST04-007.png",
+        "collected": "false"
+    },
+    "ST04-008": {
+        "deck": "ST04",
+        "card_code": "ST04-008",
+        "rarity": "C",
+        "kind": "CHARACTER",
+        "text": "Effect[On Play] You may trash 1 card from your hand: Add up to 1 DON!! card from your DON!! deck and set it as active.",
+        "name": "Jack",
+        "images": "ST04-008.png",
+        "collected": "false"
+    },
+    "ST04-009": {
+        "deck": "ST04",
+        "card_code": "ST04-009",
+        "rarity": "C",
+        "kind": "CHARACTER",
+        "text": "Effect-",
+        "name": "Ginrummy",
+        "images": "ST04-009.png",
+        "collected": "false"
+    },
+    "ST04-010": {
+        "deck": "ST04",
+        "card_code": "ST04-010",
+        "rarity": "C",
+        "kind": "CHARACTER",
+        "text": "Effect[On Play] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): K.O. up to 1 of your opponent's Characters with a cost of 3 or less.",
+        "name": "Who's.Who",
+        "images": "ST04-010.png",
+        "collected": "false"
+    },
+    "ST04-011": {
+        "deck": "ST04",
+        "card_code": "ST04-011",
+        "rarity": "C",
+        "kind": "CHARACTER",
+        "text": "Effect[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+        "name": "Black Maria",
+        "images": "ST04-011.png",
+        "collected": "false"
+    },
+    "ST04-012": {
+        "deck": "ST04",
+        "card_code": "ST04-012",
+        "rarity": "C",
+        "kind": "CHARACTER",
+        "text": "Effect-",
+        "name": "Page One",
+        "images": "ST04-012.png",
+        "collected": "false"
+    },
+    "ST04-013": {
+        "deck": "ST04",
+        "card_code": "ST04-013",
+        "rarity": "C",
+        "kind": "CHARACTER",
+        "text": "Effect-",
+        "name": "X.Drake",
+        "images": "ST04-013.png",
+        "collected": "false"
+    },
+    "ST04-014": {
+        "deck": "ST04",
+        "card_code": "ST04-014",
+        "rarity": "C",
+        "kind": "EVENT",
+        "text": "Effect[Main] Draw 1 card, then add up to 1 DON!! card from your DON!! deck and set it as active.",
+        "name": "Lead Performer \"Disaster\"",
+        "images": "ST04-014.png",
+        "collected": "false"
+    },
+    "ST04-015": {
+        "deck": "ST04",
+        "card_code": "ST04-015",
+        "rarity": "C",
+        "kind": "EVENT",
+        "text": "Effect[Main] K.O. up to 1 of your opponent's Characters with a cost of 6 or less, then add up to 1 DON!! card from your DON!! deck and set it as active.",
+        "name": "Brachio Bomber",
+        "images": "ST04-015.png",
+        "collected": "false"
+    },
+    "ST04-016": {
+        "deck": "ST04",
+        "card_code": "ST04-016",
+        "rarity": "C",
+        "kind": "EVENT",
+        "text": "Effect[Counter] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Up to 1 of your Leader or Character cards gains +4000 power during this battle.",
+        "name": "Blast Breath",
+        "images": "ST04-016.png",
+        "collected": "false"
+    },
+    "ST04-017": {
+        "deck": "ST04",
+        "card_code": "ST04-017",
+        "rarity": "C",
+        "kind": "STAGE",
+        "text": "Effect[Activate: Main] You may rest this Stage: If your Leader has the {Animal Kingdom Pirates} type, add up to 1 DON!! card from your DON!! deck and rest it.",
+        "name": "Onigashima Island",
+        "images": "ST04-017.png",
+        "collected": "false"
+    },
+    "OP01-001": {
+        "deck": "OP01",
+        "card_code": "OP01-001",
+        "rarity": "L",
+        "kind": "LEADER",
+        "text": "Effect[DON!! x1] [Your Turn] All of your Characters gain +1000 power.",
+        "name": "Roronoa Zoro",
+        "images": "OP01-001.png",
+        "collected": "false"
+    },
+    "OP01-001_p1": {
+        "deck": "OP01",
+        "card_code": "OP01-001",
+        "rarity": "L",
+        "kind": "LEADER",
+        "text": "Effect[DON!! x1] [Your Turn] All of your Characters gain +1000 power.",
+        "name": "Roronoa Zoro",
+        "images": "OP01-001_p1.png",
+        "collected": "false"
+    },
+    "OP01-002": {
+        "deck": "OP01",
+        "card_code": "OP01-002",
+        "rarity": "L",
+        "kind": "LEADER",
+        "text": "Effect[Activate: Main] [Once Per Turn] ➁ (You may rest the specified number of DON!! cards in your cost area.): If you have 5 Characters, return 1 of your Characters to your hand. Then, play up to 1 Character with a cost of 5 or less from your hand that is a different color than the returned Character.",
+        "name": "Trafalgar Law",
+        "images": "OP01-002.png",
+        "collected": "false"
+    },
+    "OP01-002_p1": {
+        "deck": "OP01",
+        "card_code": "OP01-002",
+        "rarity": "L",
+        "kind": "LEADER",
+        "text": "Effect[Activate: Main] [Once Per Turn] ➁ (You may rest the specified number of DON!! cards in your cost area.): If you have 5 Characters, return 1 of your Characters to your hand. Then, play up to 1 Character with a cost of 5 or less from your hand that is a different color than the returned Character.",
+        "name": "Trafalgar Law",
+        "images": "OP01-002_p1.png",
+        "collected": "false"
+    },
+    "OP01-003": {
+        "deck": "OP01",
+        "card_code": "OP01-003",
+        "rarity": "L",
+        "kind": "LEADER",
+        "text": "Effect[Activate: Main] [Once Per Turn] ➃ (You may rest the specified number of DON!! cards in your cost area.): Set up to 1 of your {Supernovas} or {Straw Hat Crew} type Character cards with a cost of 5 or less as active. It gains +1000 power during this turn.",
+        "name": "Monkey.D.Luffy",
+        "images": "OP01-003.png",
+        "collected": "false"
+    },
+    "OP01-003_p1": {
+        "deck": "OP01",
+        "card_code": "OP01-003",
+        "rarity": "L",
+        "kind": "LEADER",
+        "text": "Effect[Activate: Main] [Once Per Turn] ➃ (You may rest the specified number of DON!! cards in your cost area.): Set up to 1 of your {Supernovas} or {Straw Hat Crew} type Character cards with a cost of 5 or less as active. It gains +1000 power during this turn.",
+        "name": "Monkey.D.Luffy ",
+        "images": "OP01-003_p1.png",
+        "collected": "false"
+    },
+    "OP01-004": {
+        "deck": "OP01",
+        "card_code": "OP01-004",
+        "rarity": "R",
+        "kind": "CHARACTER",
+        "text": "Effect[DON!! x1] [Your Turn] [Once Per Turn] Draw 1 card when your opponent activates an Event.",
+        "name": "Usopp",
+        "images": "OP01-004.png",
+        "collected": "false"
+    },
+    "OP01-005": {
+        "deck": "OP01",
+        "card_code": "OP01-005",
+        "rarity": "R",
+        "kind": "CHARACTER",
+        "text": "Effect[On Play] Add up to 1 red Character card other than [Uta] with a cost of 3 or less from your trash to your hand.",
+        "name": "Uta",
+        "images": "OP01-005.png",
+        "collected": "false"
+    },
+    "OP01-006": {
+        "deck": "OP01",
+        "card_code": "OP01-006",
+        "rarity": "UC",
+        "kind": "CHARACTER",
+        "text": "Effect[On Play] Give up to 1 of your opponent's Characters −2000 power during this turn.",
+        "name": "Otama",
+        "images": "OP01-006.png",
+        "collected": "false"
+    },
+    "OP01-007": {
+        "deck": "OP01",
+        "card_code": "OP01-007",
+        "rarity": "C",
+        "kind": "CHARACTER",
+        "text": "Effect[On K.O.] K.O. up to 1 of your opponent's Characters with 4000 power or less.",
+        "name": "Caribou",
+        "images": "OP01-007.png",
+        "collected": "false"
+    },
+    "OP01-008": {
+        "deck": "OP01",
+        "card_code": "OP01-008",
+        "rarity": "C",
+        "kind": "CHARACTER",
+        "text": "Effect[On Play] You may add 1 card from your Life area to your hand: This Character gains [Rush] during this turn. (This card can attack on the turn in which it is played.)",
+        "name": "Cavendish",
+        "images": "OP01-008.png",
+        "collected": "false"
+    },
+    "OP01-008_p1": {
+        "deck": "OP01",
+        "card_code": "OP01-008",
+        "rarity": "C",
+        "kind": "CHARACTER",
+        "text": "Effect[On Play] You may add 1 card from your Life area to your hand: This Character gains [Rush] during this turn. (This card can attack on the turn in which it is played.)",
+        "name": "Cavendish",
+        "images": "OP01-008_p1.png",
+        "collected": "false"
+    },
+    "OP01-009": {
+        "deck": "OP01",
+        "card_code": "OP01-009",
+        "rarity": "C",
+        "kind": "CHARACTER",
+        "text": "Effect[Trigger] Play this card.",
+        "name": "Carrot",
+        "images": "OP01-009.png",
+        "collected": "false"
+    },
+    "OP01-010": {
+        "deck": "OP01",
+        "card_code": "OP01-010",
+        "rarity": "C",
+        "kind": "CHARACTER",
+        "text": "Effect-",
+        "name": "Komachiyo",
+        "images": "OP01-010.png",
+        "collected": "false"
+    },
+    "OP01-011": {
+        "deck": "OP01",
+        "card_code": "OP01-011",
+        "rarity": "UC",
+        "kind": "CHARACTER",
+        "text": "Effect[On Play] You may place 1 card from your hand at the bottom of your deck: Draw 1 card.",
+        "name": "Gordon",
+        "images": "OP01-011.png",
+        "collected": "false"
+    },
+    "OP01-012": {
+        "deck": "OP01",
+        "card_code": "OP01-012",
+        "rarity": "C",
+        "kind": "CHARACTER",
+        "text": "Effect-",
+        "name": "Sai",
+        "images": "OP01-012.png",
+        "collected": "false"
+    },
+    "OP01-013": {
+        "deck": "OP01",
+        "card_code": "OP01-013",
+        "rarity": "R",
+        "kind": "CHARACTER",
+        "text": "Effect[Activate: Main] [Once Per Turn] You may add 1 card from your Life area to your hand: This Character gains +2000 power during this turn. Then, give this Character up to 2 rested DON!! cards.",
+        "name": "Sanji",
+        "images": "OP01-013.png",
+        "collected": "false"
+    },
+    "OP01-013_p1": {
+        "deck": "OP01",
+        "card_code": "OP01-013",
+        "rarity": "R",
+        "kind": "CHARACTER",
+        "text": "Effect[Activate: Main] [Once Per Turn] You may add 1 card from your Life area to your hand: This Character gains +2000 power during this turn. Then, give this Character up to 2 rested DON!! cards.",
+        "name": "Sanji",
+        "images": "OP01-013_p1.png",
+        "collected": "false"
+    },
+    "OP01-014": {
+        "deck": "OP01",
+        "card_code": "OP01-014",
+        "rarity": "UC",
+        "kind": "CHARACTER",
+        "text": "Effect[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[DON!! x1] [On Block] Play up to 1 red Character card with a cost of 2 or less from your hand.",
+        "name": "Jinbe",
+        "images": "OP01-014.png",
+        "collected": "false"
+    },
+    "OP01-015": {
+        "deck": "OP01",
+        "card_code": "OP01-015",
+        "rarity": "UC",
+        "kind": "CHARACTER",
+        "text": "Effect[DON!! x1] [When Attacking] You may trash 1 card from your hand: Add up to 1 {Straw Hat Crew} type Character card other than [Tony Tony.Chopper] with a cost of 4 or less from your trash to your hand.",
+        "name": "Tony Tony.Chopper",
+        "images": "OP01-015.png",
+        "collected": "false"
+    },
+    "OP01-016": {
+        "deck": "OP01",
+        "card_code": "OP01-016",
+        "rarity": "R",
+        "kind": "CHARACTER",
+        "text": "Effect[On Play] Look at 5 cards from the top of your deck; reveal up to 1 {Straw Hat Crew} type card other than [Nami] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+        "name": "Nami",
+        "images": "OP01-016.png",
+        "collected": "false"
+    },
+    "OP01-016_p1": {
+        "deck": "OP01",
+        "card_code": "OP01-016",
+        "rarity": "R",
+        "kind": "CHARACTER",
+        "text": "Effect[On Play] Look at 5 cards from the top of your deck; reveal up to 1 {Straw Hat Crew} type card other than [Nami] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+        "name": "Nami",
+        "images": "OP01-016_p1.png",
+        "collected": "false"
+    },
+    "OP01-017": {
+        "deck": "OP01",
+        "card_code": "OP01-017",
+        "rarity": "R",
+        "kind": "CHARACTER",
+        "text": "Effect[DON!! x1] [When Attacking] K.O. up to 1 of your opponent's Characters with 3000 power or less.",
+        "name": "Nico Robin",
+        "images": "OP01-017.png",
+        "collected": "false"
+    },
+    "OP01-018": {
+        "deck": "OP01",
+        "card_code": "OP01-018",
+        "rarity": "C",
+        "kind": "CHARACTER",
+        "text": "Effect-",
+        "name": "Hajrudin",
+        "images": "OP01-018.png",
+        "collected": "false"
+    },
+    "OP01-019": {
+        "deck": "OP01",
+        "card_code": "OP01-019",
+        "rarity": "C",
+        "kind": "CHARACTER",
+        "text": "Effect[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[DON!! x2] [Opponent's Turn] This Character gains +3000 power.",
+        "name": "Bartolomeo",
+        "images": "OP01-019.png",
+        "collected": "false"
+    },
+    "OP01-020": {
+        "deck": "OP01",
+        "card_code": "OP01-020",
+        "rarity": "C",
+        "kind": "CHARACTER",
+        "text": "Effect[Activate: Main] You may rest this Character: Up to 1 of your Leader or Character cards gains +2000 power during this turn.",
+        "name": "Hyogoro",
+        "images": "OP01-020.png",
+        "collected": "false"
+    },
+    "OP01-021": {
+        "deck": "OP01",
+        "card_code": "OP01-021",
+        "rarity": "UC",
+        "kind": "CHARACTER",
+        "text": "Effect[DON!! x1] This Character can also attack your opponent's active Characters.",
+        "name": "Franky",
+        "images": "OP01-021.png",
+        "collected": "false"
+    },
+    "OP01-022": {
+        "deck": "OP01",
+        "card_code": "OP01-022",
+        "rarity": "UC",
+        "kind": "CHARACTER",
+        "text": "Effect[DON!! x1] [When Attacking] Give up to 2 of your opponent's Characters −2000 power during this turn.",
+        "name": "Brook",
+        "images": "OP01-022.png",
+        "collected": "false"
+    },
+    "OP01-023": {
+        "deck": "OP01",
+        "card_code": "OP01-023",
+        "rarity": "C",
+        "kind": "CHARACTER",
+        "text": "Effect-",
+        "name": "Marco",
+        "images": "OP01-023.png",
+        "collected": "false"
+    },
+    "OP01-024": {
+        "deck": "OP01",
+        "card_code": "OP01-024",
+        "rarity": "SR",
+        "kind": "CHARACTER",
+        "text": "Effect[DON!! x2] This Character cannot be K.O.'d in battle by ＜Strike＞ attribute Characters.[Activate: Main] [Once Per Turn] Give this Character up to 2 rested DON!! cards.",
+        "name": "Monkey.D.Luffy",
+        "images": "OP01-024.png",
+        "collected": "false"
+    },
+    "OP01-024_p1": {
+        "deck": "OP01",
+        "card_code": "OP01-024",
+        "rarity": "SR",
+        "kind": "CHARACTER",
+        "text": "Effect[DON!! x2] This Character cannot be K.O.'d in battle by ＜Strike＞  attribute Characters.[Activate: Main] [Once Per Turn] Give this Character up to 2 rested DON!! cards.",
+        "name": "Monkey.D.Luffy",
+        "images": "OP01-024_p1.png",
+        "collected": "false"
+    },
+    "OP01-025": {
+        "deck": "OP01",
+        "card_code": "OP01-025",
+        "rarity": "SR",
+        "kind": "CHARACTER",
+        "text": "Effect[Rush] (This card can attack on the turn in which it is played.)",
+        "name": "Roronoa Zoro",
+        "images": "OP01-025.png",
+        "collected": "false"
+    },
+    "OP01-025_p1": {
+        "deck": "OP01",
+        "card_code": "OP01-025",
+        "rarity": "SR",
+        "kind": "CHARACTER",
+        "text": "Effect[Rush] (This card can attack on the turn in which it is played.)",
+        "name": "Roronoa Zoro",
+        "images": "OP01-025_p1.png",
+        "collected": "false"
+    },
+    "OP01-026": {
+        "deck": "OP01",
+        "card_code": "OP01-026",
+        "rarity": "R",
+        "kind": "EVENT",
+        "text": "Effect[Counter] Up to 1 of your Leader or Character cards gains +4000 power during this battle. Then, K.O. up to 1 of your opponent's Characters with 4000 power or less.",
+        "name": "Gum-Gum Fire-Fist Pistol Red Hawk",
+        "images": "OP01-026.png",
+        "collected": "false"
+    },
+    "OP01-027": {
+        "deck": "OP01",
+        "card_code": "OP01-027",
+        "rarity": "C",
+        "kind": "EVENT",
+        "text": "Effect[Main] Give up to 1 of your opponent's Characters −10000 power during this turn.",
+        "name": "Round Table",
+        "images": "OP01-027.png",
+        "collected": "false"
+    },
+    "OP01-028": {
+        "deck": "OP01",
+        "card_code": "OP01-028",
+        "rarity": "C",
+        "kind": "EVENT",
+        "text": "Effect[Counter] Give up to 1 of your opponent's Leader or Character cards −2000 power during this turn.",
+        "name": "Green Star Rafflesia",
+        "images": "OP01-028.png",
+        "collected": "false"
+    },
+    "OP01-029": {
+        "deck": "OP01",
+        "card_code": "OP01-029",
+        "rarity": "UC",
+        "kind": "EVENT",
+        "text": "Effect[Counter] Up to 1 of your Leader or Character cards gains +2000 power during this battle. Then, if you have 2 or less Life cards, that card gains an additional +2000 power.",
+        "name": "Radical Beam!!",
+        "images": "OP01-029.png",
+        "collected": "false"
+    },
+    "OP01-030": {
+        "deck": "OP01",
+        "card_code": "OP01-030",
+        "rarity": "UC",
+        "kind": "EVENT",
+        "text": "Effect[Main] Look at 5 cards from the top of your deck; reveal up to 1 {Straw Hat Crew} type Character card and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+        "name": "In Two Years!! At the Sabaody Archipelago!!",
+        "images": "OP01-030.png",
+        "collected": "false"
+    },
+    "OP01-031": {
+        "deck": "OP01",
+        "card_code": "OP01-031",
+        "rarity": "L",
+        "kind": "LEADER",
+        "text": "Effect[Activate: Main] [Once Per Turn] You can trash 1 {Land of Wano} type card from your hand: Set up to 2 of your DON!! cards as active.",
+        "name": "Kouzuki Oden",
+        "images": "OP01-031.png",
+        "collected": "false"
+    },
+    "OP01-031_p1": {
+        "deck": "OP01",
+        "card_code": "OP01-031",
+        "rarity": "L",
+        "kind": "LEADER",
+        "text": "Effect[Activate: Main] [Once Per Turn] You can trash 1 {Land of Wano} type card from your hand: Set up to 2 of your DON!! cards as active.",
+        "name": "Kouzuki Oden",
+        "images": "OP01-031_p1.png",
+        "collected": "false"
+    },
+    "OP01-032": {
+        "deck": "OP01",
+        "card_code": "OP01-032",
+        "rarity": "UC",
+        "kind": "CHARACTER",
+        "text": "Effect[DON!! x1] If your opponent has 2 or more rested Characters, this Character gains +2000 power.",
+        "name": "Ashura Doji",
+        "images": "OP01-032.png",
+        "collected": "false"
+    },
+    "OP01-033": {
+        "deck": "OP01",
+        "card_code": "OP01-033",
+        "rarity": "UC",
+        "kind": "CHARACTER",
+        "text": "Effect[On Play] Rest up to 1 of your opponent's Characters with a cost of 4 or less.",
+        "name": "Izo",
+        "images": "OP01-033.png",
+        "collected": "false"
+    },
+    "OP01-034": {
+        "deck": "OP01",
+        "card_code": "OP01-034",
+        "rarity": "C",
+        "kind": "CHARACTER",
+        "text": "Effect[DON!! x2] [When Attacking] Set up to 1 of your DON!! cards as active.",
+        "name": "Inuarashi",
+        "images": "OP01-034.png",
+        "collected": "false"
+    },
+    "OP01-034_p1": {
+        "deck": "OP01",
+        "card_code": "OP01-034",
+        "rarity": "C",
+        "kind": "CHARACTER",
+        "text": "Effect[DON!! x2] [When Attacking] Set up to 1 of your DON!! cards as active.",
+        "name": "Inuarashi",
+        "images": "OP01-034_p1.png",
+        "collected": "false"
+    },
+    "OP01-035": {
+        "deck": "OP01",
+        "card_code": "OP01-035",
+        "rarity": "R",
+        "kind": "CHARACTER",
+        "text": "Effect[DON!! x1] [When Attacking] [Once Per Turn] Rest up to 1 of your opponent's Characters with a cost of 5 or less.",
+        "name": "Okiku",
+        "images": "OP01-035.png",
+        "collected": "false"
+    },
+    "OP01-036": {
+        "deck": "OP01",
+        "card_code": "OP01-036",
+        "rarity": "C",
+        "kind": "CHARACTER",
+        "text": "Effect-",
+        "name": "Otsuru",
+        "images": "OP01-036.png",
+        "collected": "false"
+    },
+    "OP01-037": {
+        "deck": "OP01",
+        "card_code": "OP01-037",
+        "rarity": "C",
+        "kind": "CHARACTER",
+        "text": "Effect-",
+        "name": "Kawamatsu",
+        "images": "OP01-037.png",
+        "collected": "false"
+    },
+    "OP01-038": {
+        "deck": "OP01",
+        "card_code": "OP01-038",
+        "rarity": "C",
+        "kind": "CHARACTER",
+        "text": "Effect[DON!! x1] [When Attacking] K.O. up to 1 of your opponent's rested Characters with a cost of 2 or less.[On K.O.] Your opponent chooses 1 card from your hand; trash that card.",
+        "name": "Kanjuro",
+        "images": "OP01-038.png",
+        "collected": "false"
+    },
+    "OP01-039": {
+        "deck": "OP01",
+        "card_code": "OP01-039",
+        "rarity": "UC",
+        "kind": "CHARACTER",
+        "text": "Effect[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[DON!! x1] [On Block] If you have 3 or more Characters, draw 1 card.",
+        "name": "Killer",
+        "images": "OP01-039.png",
+        "collected": "false"
+    },
+    "OP01-040": {
+        "deck": "OP01",
+        "card_code": "OP01-040",
+        "rarity": "SR",
+        "kind": "CHARACTER",
+        "text": "Effect[On Play] If your Leader is [Kouzuki Oden], play up to 1 {The Akazaya Nine} type Character card with a cost of 3 or less from your hand.[DON!! x1] [When Attacking] [Once Per Turn] Set up to 1 of your {The Akazaya Nine} type Character cards with a cost of 3 or less as active.",
+        "name": "Kin'emon",
+        "images": "OP01-040.png",
+        "collected": "false"
+    },
+    "OP01-040_p1": {
+        "deck": "OP01",
+        "card_code": "OP01-040",
+        "rarity": "SR",
+        "kind": "CHARACTER",
+        "text": "Effect[On Play] If your Leader is [Kouzuki Oden], play up to 1 {The Akazaya Nine} type Character card with a cost of 3 or less from your hand.[DON!! x1] [When Attacking] [Once Per Turn] Set up to 1 of your {The Akazaya Nine} type Character cards with a cost of 3 or less as active.",
+        "name": "Kin'emon",
+        "images": "OP01-040_p1.png",
+        "collected": "false"
+    },
+    "OP01-041": {
+        "deck": "OP01",
+        "card_code": "OP01-041",
+        "rarity": "R",
+        "kind": "CHARACTER",
+        "text": "Effect[Activate: Main] ➀ (You may rest the specified number of DON!! cards in your cost area) You may rest this Character: Look at 5 cards from the top of your deck; reveal up to 1 {Land of Wano} type card and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+        "name": "Kouzuki Momonosuke",
+        "images": "OP01-041.png",
+        "collected": "false"
+    },
+    "OP01-042": {
+        "deck": "OP01",
+        "card_code": "OP01-042",
+        "rarity": "UC",
+        "kind": "CHARACTER",
+        "text": "Effect[On Play] ③ (You may rest the specified number of DON!! cards in your cost area.): If your Leader is [Kouzuki Oden], set up to 1 of your {Land of Wano} type Character cards with a cost of 3 or less as active.",
+        "name": "Komurasaki",
+        "images": "OP01-042.png",
+        "collected": "false"
+    },
+    "OP01-043": {
+        "deck": "OP01",
+        "card_code": "OP01-043",
+        "rarity": "C",
+        "kind": "CHARACTER",
+        "text": "Effect-",
+        "name": "Shinobu",
+        "images": "OP01-043.png",
+        "collected": "false"
+    },
+    "OP01-044": {
+        "deck": "OP01",
+        "card_code": "OP01-044",
+        "rarity": "C",
+        "kind": "CHARACTER",
+        "text": "Effect[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Play] If you don't have [Penguin], play up to 1 [Penguin] from your hand.",
+        "name": "Shachi",
+        "images": "OP01-044.png",
+        "collected": "false"
+    },
+    "OP01-045": {
+        "deck": "OP01",
+        "card_code": "OP01-045",
+        "rarity": "C",
+        "kind": "CHARACTER",
+        "text": "Effect-",
+        "name": "Jean Bart",
+        "images": "OP01-045.png",
+        "collected": "false"
+    },
+    "OP01-046": {
+        "deck": "OP01",
+        "card_code": "OP01-046",
+        "rarity": "R",
+        "kind": "CHARACTER",
+        "text": "Effect[DON!! x1] [When Attacking] If your Leader is [Kouzuki Oden], set up to 2 of your DON!! cards as active.",
+        "name": "Denjiro",
+        "images": "OP01-046.png",
+        "collected": "false"
+    },
+    "OP01-047": {
+        "deck": "OP01",
+        "card_code": "OP01-047",
+        "rarity": "SR",
+        "kind": "CHARACTER",
+        "text": "Effect[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Play] You may return 1 Character to your hand: Play up to 1 Character card with a cost of 3 or less from your hand.",
+        "name": "Trafalgar Law",
+        "images": "OP01-047.png",
+        "collected": "false"
+    },
+    "OP01-047_p1": {
+        "deck": "OP01",
+        "card_code": "OP01-047",
+        "rarity": "SR",
+        "kind": "CHARACTER",
+        "text": "Effect[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Play] You may return 1 Character to your hand: Play up to 1 Character card with a cost of 3 or less from your hand.",
+        "name": "Trafalgar Law",
+        "images": "OP01-047_p1.png",
+        "collected": "false"
+    },
+    "OP01-048": {
+        "deck": "OP01",
+        "card_code": "OP01-048",
+        "rarity": "C",
+        "kind": "CHARACTER",
+        "text": "Effect[On Play] Rest up to 1 of your opponent's Characters with a cost of 3 or less.",
+        "name": "Nekomamushi",
+        "images": "OP01-048.png",
+        "collected": "false"
+    },
+    "OP01-048_p1": {
+        "deck": "OP01",
+        "card_code": "OP01-048",
+        "rarity": "C",
+        "kind": "CHARACTER",
+        "text": "Effect[On Play] Rest up to 1 of your opponent's Characters with a cost of 3 or less.",
+        "name": "Nekomamushi",
+        "images": "OP01-048_p1.png",
+        "collected": "false"
+    },
+    "OP01-049": {
+        "deck": "OP01",
+        "card_code": "OP01-049",
+        "rarity": "R",
+        "kind": "CHARACTER",
+        "text": "Effect[DON!! x1] [When Attacking] Play up to 1 {Heart Pirates} type card other than [Bepo] with a cost of 4 or less from your hand.",
+        "name": "Bepo",
+        "images": "OP01-049.png",
+        "collected": "false"
+    },
+    "OP01-050": {
+        "deck": "OP01",
+        "card_code": "OP01-050",
+        "rarity": "C",
+        "kind": "CHARACTER",
+        "text": "Effect[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Play] If you don't have [Shachi], play up to 1 [Shachi] from your hand.",
+        "name": "Penguin",
+        "images": "OP01-050.png",
+        "collected": "false"
+    },
+    "OP01-051": {
+        "deck": "OP01",
+        "card_code": "OP01-051",
+        "rarity": "SR",
+        "kind": "CHARACTER",
+        "text": "Effect[DON!! x1] [Opponent's Turn] If this Character is rested, your opponent cannot attack any card other than the Character [Eustass\"Captain\"Kid].[Activate: Main] [Once Per Turn] You may rest this Character: Play up to 1 Character card with a cost of 3 or less from your hand.",
+        "name": "Eustass\"Captain\"Kid",
+        "images": "OP01-051.png",
+        "collected": "false"
+    },
+    "OP01-051_p1": {
+        "deck": "OP01",
+        "card_code": "OP01-051",
+        "rarity": "SR",
+        "kind": "CHARACTER",
+        "text": "Effect[DON!! x1] [Opponent's Turn] If this Character is rested, your opponent cannot attack any card other than the Character [Eustass\"Captain\"Kid].[Activate: Main] [Once Per Turn] You may rest this Character: Play up to 1 Character card with a cost of 3 or less from your hand.",
+        "name": "Eustass\"Captain\"Kid",
+        "images": "OP01-051_p1.png",
+        "collected": "false"
+    },
+    "OP01-052": {
+        "deck": "OP01",
+        "card_code": "OP01-052",
+        "rarity": "UC",
+        "kind": "CHARACTER",
+        "text": "Effect[When Attacking] [Once Per Turn] If you have 2 or more rested Characters, draw 1 card.",
+        "name": "Raizo",
+        "images": "OP01-052.png",
+        "collected": "false"
+    },
+    "OP01-053": {
+        "deck": "OP01",
+        "card_code": "OP01-053",
+        "rarity": "C",
+        "kind": "CHARACTER",
+        "text": "Effect-",
+        "name": "Wire",
+        "images": "OP01-053.png",
+        "collected": "false"
+    },
+    "OP01-054": {
+        "deck": "OP01",
+        "card_code": "OP01-054",
+        "rarity": "R",
+        "kind": "CHARACTER",
+        "text": "Effect[On Play] K.O. up to 1 of your opponent's rested Characters with a cost of 4 or less.",
+        "name": "X.Drake",
+        "images": "OP01-054.png",
+        "collected": "false"
+    },
+    "OP01-055": {
+        "deck": "OP01",
+        "card_code": "OP01-055",
+        "rarity": "C",
+        "kind": "EVENT",
+        "text": "Effect[Main] You may rest 2 of your Characters: Draw 2 cards.",
+        "name": "You Can Be My Samurai!!",
+        "images": "OP01-055.png",
+        "collected": "false"
+    },
+    "OP01-056": {
+        "deck": "OP01",
+        "card_code": "OP01-056",
+        "rarity": "UC",
+        "kind": "EVENT",
+        "text": "Effect[Main] K.O. up to 2 of your opponent's rested Characters with a cost of 5 or less.",
+        "name": "Demon Face",
+        "images": "OP01-056.png",
+        "collected": "false"
+    },
+    "OP01-057": {
+        "deck": "OP01",
+        "card_code": "OP01-057",
+        "rarity": "UC",
+        "kind": "EVENT",
+        "text": "Effect[Counter] Up to 1 of your Leader or Character cards gains +2000 power during this battle. Then, set up to 1 of your Characters as active.",
+        "name": "Paradise Waterfall",
+        "images": "OP01-057.png",
+        "collected": "false"
+    },
+    "OP01-058": {
+        "deck": "OP01",
+        "card_code": "OP01-058",
+        "rarity": "R",
+        "kind": "EVENT",
+        "text": "Effect[Counter] Up to 1 of your Leader or Character cards gains +4000 power during this battle. Then, rest up to 1 of your opponent's Characters with a cost of 4 or less.",
+        "name": "Punk Gibson",
+        "images": "OP01-058.png",
+        "collected": "false"
+    },
+    "OP01-059": {
+        "deck": "OP01",
+        "card_code": "OP01-059",
+        "rarity": "C",
+        "kind": "EVENT",
+        "text": "Effect[Main] You may trash 1 {Land of Wano} type card from your hand: Set up to 1 of your {Land of Wano} type Character cards with a cost of 3 or less as active.",
+        "name": "BE-BENG!!",
+        "images": "OP01-059.png",
+        "collected": "false"
+    },
+    "OP01-060": {
+        "deck": "OP01",
+        "card_code": "OP01-060",
+        "rarity": "L",
+        "kind": "LEADER",
+        "text": "Effect[DON!! x2] [When Attacking] ➀ (You may rest the specified number of DON!! cards in your cost area.): Reveal 1 card from the top of your deck. If that card is a {The Seven Warlords of the Sea} type Character card with a cost of 4 or less, you may play that card rested.",
+        "name": "Donquixote Doflamingo",
+        "images": "OP01-060.png",
+        "collected": "false"
+    },
+    "OP01-060_p1": {
+        "deck": "OP01",
+        "card_code": "OP01-060",
+        "rarity": "L",
+        "kind": "LEADER",
+        "text": "Effect[DON!! x2] [When Attacking] ➀ (You may rest the specified number of DON!! cards in your cost area.): Reveal 1 card from the top of your deck. If that card is a {The Seven Warlords of the Sea} type Character card with a cost of 4 or less, you may play that card rested.",
+        "name": "Donquixote Doflamingo",
+        "images": "OP01-060_p1.png",
+        "collected": "false"
+    },
+    "OP01-061": {
+        "deck": "OP01",
+        "card_code": "OP01-061",
+        "rarity": "L",
+        "kind": "LEADER",
+        "text": "Effect[DON!! x1] [Your Turn] [Once Per Turn] When your opponent's Character is K.O.'d, add up to 1 DON!! card from your DON!! deck and set it as active.",
+        "name": "Kaido",
+        "images": "OP01-061.png",
+        "collected": "false"
+    },
+    "OP01-061_p1": {
+        "deck": "OP01",
+        "card_code": "OP01-061",
+        "rarity": "L",
+        "kind": "LEADER",
+        "text": "Effect[DON!! x1] [Your Turn] [Once Per Turn] When your opponent's Character is K.O.'d, add up to 1 DON!! card from your DON!! deck and set it as active.",
+        "name": "Kaido",
+        "images": "OP01-061_p1.png",
+        "collected": "false"
+    },
+    "OP01-062": {
+        "deck": "OP01",
+        "card_code": "OP01-062",
+        "rarity": "L",
+        "kind": "LEADER",
+        "text": "Effect[DON!! x1] When you activate an Event, you may draw 1 card if you have 4 or less cards in your hand and haven't drawn a card using this Leader's effect during this turn.",
+        "name": "Crocodile",
+        "images": "OP01-062.png",
+        "collected": "false"
+    },
+    "OP01-062_p1": {
+        "deck": "OP01",
+        "card_code": "OP01-062",
+        "rarity": "L",
+        "kind": "LEADER",
+        "text": "Effect[DON!! x1] When you activate an Event, you may draw 1 card if you have 4 or less cards in your hand and haven't drawn a card using this Leader's effect during this turn.",
+        "name": "Crocodile",
+        "images": "OP01-062_p1.png",
+        "collected": "false"
+    },
+    "OP01-063": {
+        "deck": "OP01",
+        "card_code": "OP01-063",
+        "rarity": "UC",
+        "kind": "CHARACTER",
+        "text": "Effect[DON!! x1] [Activate: Main] You may rest this Character: Choose 1 card from your opponent's hand; your opponent reveals that card. If the revealed card is an Event, place up to 1 card from your opponent's Life area at the bottom of the owner's deck.",
+        "name": "Arlong",
+        "images": "OP01-063.png",
+        "collected": "false"
+    },
+    "OP01-064": {
+        "deck": "OP01",
+        "card_code": "OP01-064",
+        "rarity": "C",
+        "kind": "CHARACTER",
+        "text": "Effect[DON!! x1] [When Attacking] You may trash 1 card from your hand: Return up to 1 of your opponent's Characters with a cost of 3 or less to the owner's hand.",
+        "name": "Alvida",
+        "images": "OP01-064.png",
+        "collected": "false"
+    },
+    "OP01-064_p1": {
+        "deck": "OP01",
+        "card_code": "OP01-064",
+        "rarity": "C",
+        "kind": "CHARACTER",
+        "text": "Effect[DON!! x1] [When Attacking] You may trash 1 card from your hand: Return up to 1 of your opponent's Characters with a cost of 3 or less to the owner's hand.",
+        "name": "Alvida",
+        "images": "OP01-064_p1.png",
+        "collected": "false"
+    },
+    "OP01-065": {
+        "deck": "OP01",
+        "card_code": "OP01-065",
+        "rarity": "C",
+        "kind": "CHARACTER",
+        "text": "Effect-",
+        "name": "Vergo",
+        "images": "OP01-065.png",
+        "collected": "false"
+    },
+    "OP01-066": {
+        "deck": "OP01",
+        "card_code": "OP01-066",
+        "rarity": "C",
+        "kind": "CHARACTER",
+        "text": "Effect-",
+        "name": "Krieg",
+        "images": "OP01-066.png",
+        "collected": "false"
+    },
+    "OP01-067": {
+        "deck": "OP01",
+        "card_code": "OP01-067",
+        "rarity": "SR",
+        "kind": "CHARACTER",
+        "text": "Effect[Banish] (When this card deals damage, the target card is trashed without activating its Trigger.)[DON!! x1] Give blue Events in your hand −1 cost.",
+        "name": "Crocodile",
+        "images": "OP01-067.png",
+        "collected": "false"
+    },
+    "OP01-067_p1": {
+        "deck": "OP01",
+        "card_code": "OP01-067",
+        "rarity": "SR",
+        "kind": "CHARACTER",
+        "text": "Effect[Banish] (When this card deals damage, the target card is trashed without activating its Trigger.)[DON!! x1] Give blue Events in your hand −1 cost.",
+        "name": "Crocodile",
+        "images": "OP01-067_p1.png",
+        "collected": "false"
+    },
+    "OP01-068": {
+        "deck": "OP01",
+        "card_code": "OP01-068",
+        "rarity": "R",
+        "kind": "CHARACTER",
+        "text": "Effect[Your Turn] This Character gains [Double Attack] if you have 5 or more cards in your hand.(This card deals 2 damage.)",
+        "name": "Gecko Moria",
+        "images": "OP01-068.png",
+        "collected": "false"
+    },
+    "OP01-069": {
+        "deck": "OP01",
+        "card_code": "OP01-069",
+        "rarity": "R",
+        "kind": "CHARACTER",
+        "text": "Effect[On K.O.] Play up to 1 [Smiley] from your deck, then shuffle your deck.",
+        "name": "Caesar Clown",
+        "images": "OP01-069.png",
+        "collected": "false"
+    },
+    "OP01-070": {
+        "deck": "OP01",
+        "card_code": "OP01-070",
+        "rarity": "SR",
+        "kind": "CHARACTER",
+        "text": "Effect[On Play] Place up to 1 Character with a cost of 7 or less at the bottom of the owner's deck.",
+        "name": "Dracule Mihawk",
+        "images": "OP01-070.png",
+        "collected": "false"
+    },
+    "OP01-070_p1": {
+        "deck": "OP01",
+        "card_code": "OP01-070",
+        "rarity": "SR",
+        "kind": "CHARACTER",
+        "text": "Effect[On Play] Place up to 1 Character with a cost of 7 or less at the bottom of the owner's deck.",
+        "name": "Dracule Mihawk",
+        "images": "OP01-070_p1.png",
+        "collected": "false"
+    },
+    "OP01-071": {
+        "deck": "OP01",
+        "card_code": "OP01-071",
+        "rarity": "R",
+        "kind": "CHARACTER",
+        "text": "Effect[On Play] Place up to 1 Character with a cost of 3 or less at the bottom of the owner's deck.",
+        "name": "Jinbe",
+        "images": "OP01-071.png",
+        "collected": "false"
+    },
+    "OP01-072": {
+        "deck": "OP01",
+        "card_code": "OP01-072",
+        "rarity": "C",
+        "kind": "CHARACTER",
+        "text": "Effect[DON!! x1] [Your Turn] This Character gains +1000 power for every card in your hand.",
+        "name": "Smiley",
+        "images": "OP01-072.png",
+        "collected": "false"
+    },
+    "OP01-073": {
+        "deck": "OP01",
+        "card_code": "OP01-073",
+        "rarity": "R",
+        "kind": "CHARACTER",
+        "text": "Effect[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Play] Look at 5 cards from the top of your deck and place them at the top or bottom of the deck in any order.",
+        "name": "Donquixote Doflamingo",
+        "images": "OP01-073.png",
+        "collected": "false"
+    },
+    "OP01-073_p1": {
+        "deck": "OP01",
+        "card_code": "OP01-073",
+        "rarity": "R",
+        "kind": "CHARACTER",
+        "text": "Effect[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Play] Look at 5 cards from the top of your deck and place them at the top or bottom of the deck in any order.",
+        "name": "Donquixote Doflamingo ",
+        "images": "OP01-073_p1.png",
+        "collected": "false"
+    },
+    "OP01-074": {
+        "deck": "OP01",
+        "card_code": "OP01-074",
+        "rarity": "R",
+        "kind": "CHARACTER",
+        "text": "Effect[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On K.O.] Play up to 1 [Pacifista] with a cost of 4 or less from your hand.",
+        "name": "Bartholomew Kuma",
+        "images": "OP01-074.png",
+        "collected": "false"
+    },
+    "OP01-075": {
+        "deck": "OP01",
+        "card_code": "OP01-075",
+        "rarity": "C",
+        "kind": "CHARACTER",
+        "text": "EffectUnder the rules of this game, you may have any number of this card in your deck.[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+        "name": "Pacifista",
+        "images": "OP01-075.png",
+        "collected": "false"
+    },
+    "OP01-076": {
+        "deck": "OP01",
+        "card_code": "OP01-076",
+        "rarity": "C",
+        "kind": "CHARACTER",
+        "text": "Effect-",
+        "name": "Bellamy",
+        "images": "OP01-076.png",
+        "collected": "false"
+    },
+    "OP01-077": {
+        "deck": "OP01",
+        "card_code": "OP01-077",
+        "rarity": "UC",
+        "kind": "CHARACTER",
+        "text": "Effect[On Play] Look at 5 cards from the top of your deck and place them at the top or bottom of the deck in any order.",
+        "name": "Perona",
+        "images": "OP01-077.png",
+        "collected": "false"
+    },
+    "OP01-077_p1": {
+        "deck": "OP01",
+        "card_code": "OP01-077",
+        "rarity": "UC",
+        "kind": "CHARACTER",
+        "text": "Effect[On Play] Look at 5 cards from the top of your deck and place them at the top or bottom of the deck in any order.",
+        "name": "Perona",
+        "images": "OP01-077_p1.png",
+        "collected": "false"
+    },
+    "OP01-078": {
+        "deck": "OP01",
+        "card_code": "OP01-078",
+        "rarity": "SR",
+        "kind": "CHARACTER",
+        "text": "Effect[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[DON!! x1] [When Attacking]/[On Block] Draw 1 card if you have 5 or less cards in your hand.",
+        "name": "Boa Hancock",
+        "images": "OP01-078.png",
+        "collected": "false"
+    },
+    "OP01-078_p1": {
+        "deck": "OP01",
+        "card_code": "OP01-078",
+        "rarity": "SR",
+        "kind": "CHARACTER",
+        "text": "Effect[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[DON!! x1] [When Attacking]/[On Block] Draw 1 card if you have 5 or less cards in your hand.",
+        "name": "Boa Hancock",
+        "images": "OP01-078_p1.png",
+        "collected": "false"
+    },
+    "OP01-079": {
+        "deck": "OP01",
+        "card_code": "OP01-079",
+        "rarity": "R",
+        "kind": "CHARACTER",
+        "text": "Effect[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On K.O.] If your Leader has the {Baroque Works} type, add up to 1 Event from your trash to your hand.",
+        "name": "Ms. All Sunday",
+        "images": "OP01-079.png",
+        "collected": "false"
+    },
+    "OP01-080": {
+        "deck": "OP01",
+        "card_code": "OP01-080",
+        "rarity": "C",
+        "kind": "CHARACTER",
+        "text": "Effect[On K.O.] Draw 1 card.",
+        "name": "Miss Doublefinger(Zala)",
+        "images": "OP01-080.png",
+        "collected": "false"
+    },
+    "OP01-081": {
+        "deck": "OP01",
+        "card_code": "OP01-081",
+        "rarity": "C",
+        "kind": "CHARACTER",
+        "text": "Effect-",
+        "name": "Mocha",
+        "images": "OP01-081.png",
+        "collected": "false"
+    },
+    "OP01-082": {
+        "deck": "OP01",
+        "card_code": "OP01-082",
+        "rarity": "C",
+        "kind": "CHARACTER",
+        "text": "Effect-",
+        "name": "Monet",
+        "images": "OP01-082.png",
+        "collected": "false"
+    },
+    "OP01-083": {
+        "deck": "OP01",
+        "card_code": "OP01-083",
+        "rarity": "UC",
+        "kind": "CHARACTER",
+        "text": "Effect[DON!! x1] [Your Turn] If your Leader has the {Baroque Works} type, this Character gains +1000 power for every 2 Events in your trash.",
+        "name": "Mr.1(Daz.Bonez)",
+        "images": "OP01-083.png",
+        "collected": "false"
+    },
+    "OP01-084": {
+        "deck": "OP01",
+        "card_code": "OP01-084",
+        "rarity": "UC",
+        "kind": "CHARACTER",
+        "text": "Effect[DON!! x1] [When Attacking] Look at 5 cards from the top of your deck; reveal up to 1 {Baroque Works} type Event card and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+        "name": "Mr.2.Bon.Kurei(Bentham)",
+        "images": "OP01-084.png",
+        "collected": "false"
+    },
+    "OP01-085": {
+        "deck": "OP01",
+        "card_code": "OP01-085",
+        "rarity": "UC",
+        "kind": "CHARACTER",
+        "text": "Effect[On Play] If your Leader has the {Baroque Works} type, select up to 1 of your opponent's Characters with a cost of 4 or less. The selected Character cannot attack until the end of your opponent's next turn.",
+        "name": "Mr.3(Galdino)",
+        "images": "OP01-085.png",
+        "collected": "false"
+    },
+    "OP01-086": {
+        "deck": "OP01",
+        "card_code": "OP01-086",
+        "rarity": "R",
+        "kind": "EVENT",
+        "text": "Effect[Counter] Up to 1 of your Leader or Character cards gains +4000 power during this battle. Then, return up to 1 active Character with a cost of 3 or less to the owner's hand.",
+        "name": "Overheat",
+        "images": "OP01-086.png",
+        "collected": "false"
+    },
+    "OP01-087": {
+        "deck": "OP01",
+        "card_code": "OP01-087",
+        "rarity": "C",
+        "kind": "EVENT",
+        "text": "Effect[Counter] Play up to 1 {Baroque Works} type card with a cost of 3 or less from your hand.",
+        "name": "Officer Agents",
+        "images": "OP01-087.png",
+        "collected": "false"
+    },
+    "OP01-088": {
+        "deck": "OP01",
+        "card_code": "OP01-088",
+        "rarity": "UC",
+        "kind": "EVENT",
+        "text": "Effect[Counter] Up to 1 of your Leader or Character cards gains +2000 power during this battle. Then, look at 3 cards from the top of your deck and place them at the top or bottom of the deck in any order.",
+        "name": "Desert Spada",
+        "images": "OP01-088.png",
+        "collected": "false"
+    },
+    "OP01-089": {
+        "deck": "OP01",
+        "card_code": "OP01-089",
+        "rarity": "C",
+        "kind": "EVENT",
+        "text": "Effect[Counter] If your Leader has the {The Seven Warlords of the Sea} type, return up to 1 Character with a cost of 5 or less to the owner's hand.",
+        "name": "Crescent Cutlass",
+        "images": "OP01-089.png",
+        "collected": "false"
+    },
+    "OP01-090": {
+        "deck": "OP01",
+        "card_code": "OP01-090",
+        "rarity": "UC",
+        "kind": "EVENT",
+        "text": "Effect[Main] Look at 5 cards from the top of your deck; reveal up to 1 {Baroque Works} type card other than [Baroque Works] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+        "name": "Baroque Works",
+        "images": "OP01-090.png",
+        "collected": "false"
+    },
+    "OP01-091": {
+        "deck": "OP01",
+        "card_code": "OP01-091",
+        "rarity": "L",
+        "kind": "LEADER",
+        "text": "Effect[Your Turn] If you have 10 DON!! cards on your field, give all of your opponent's Characters −1000 power.",
+        "name": "King",
+        "images": "OP01-091.png",
+        "collected": "false"
+    },
+    "OP01-091_p1": {
+        "deck": "OP01",
+        "card_code": "OP01-091",
+        "rarity": "L",
+        "kind": "LEADER",
+        "text": "Effect[Your Turn] If you have 10 DON!! cards on your field, give all of your opponent's Characters −1000 power.",
+        "name": "King",
+        "images": "OP01-091_p1.png",
+        "collected": "false"
+    },
+    "OP01-092": {
+        "deck": "OP01",
+        "card_code": "OP01-092",
+        "rarity": "C",
+        "kind": "CHARACTER",
+        "text": "Effect-",
+        "name": "Urashima",
+        "images": "OP01-092.png",
+        "collected": "false"
+    },
+    "OP01-093": {
+        "deck": "OP01",
+        "card_code": "OP01-093",
+        "rarity": "R",
+        "kind": "CHARACTER",
+        "text": "Effect[On Play] ① (You may rest the specified number of DON!! cards in your cost area.): Add up to 1 DON!! card from your DON!! deck and rest it.",
+        "name": "Ulti",
+        "images": "OP01-093.png",
+        "collected": "false"
+    },
+    "OP01-093_p1": {
+        "deck": "OP01",
+        "card_code": "OP01-093",
+        "rarity": "R",
+        "kind": "CHARACTER",
+        "text": "Effect[On Play] ① (You may rest the specified number of DON!! cards in your cost area.): Add up to 1 DON!! card from your DON!! deck and rest it.",
+        "name": "Ulti",
+        "images": "OP01-093_p1.png",
+        "collected": "false"
+    },
+    "OP01-094": {
+        "deck": "OP01",
+        "card_code": "OP01-094",
+        "rarity": "SR",
+        "kind": "CHARACTER",
+        "text": "Effect[On Play] DON!! −6 (You may return the specified number of DON!! cards from your field to your DON!! deck.): If your Leader has the {Animal Kingdom Pirates} type, K.O. all Characters other than this Character.",
+        "name": "Kaido",
+        "images": "OP01-094.png",
+        "collected": "false"
+    },
+    "OP01-094_p1": {
+        "deck": "OP01",
+        "card_code": "OP01-094",
+        "rarity": "SR",
+        "kind": "CHARACTER",
+        "text": "Effect[On Play] DON!! −6 (You may return the specified number of DON!! cards from your field to your DON!! deck.): If your Leader has the {Animal Kingdom Pirates} type, K.O. all Characters other than this Character.",
+        "name": "Kaido",
+        "images": "OP01-094_p1.png",
+        "collected": "false"
+    },
+    "OP01-095": {
+        "deck": "OP01",
+        "card_code": "OP01-095",
+        "rarity": "UC",
+        "kind": "CHARACTER",
+        "text": "Effect[On Play] Draw 1 card if you have 8 or more DON!! cards on your field.",
+        "name": "Kyoshirou",
+        "images": "OP01-095.png",
+        "collected": "false"
+    },
+    "OP01-096": {
+        "deck": "OP01",
+        "card_code": "OP01-096",
+        "rarity": "SR",
+        "kind": "CHARACTER",
+        "text": "Effect[On Play] DON!! −2 (You may return the specified number of DON!! cards from your field to your DON!! deck.): K.O. up to 1 of your opponent's Characters with a cost of 3 or less and up to 1 of your opponent's Characters with a cost of 2 or less.",
+        "name": "King",
+        "images": "OP01-096.png",
+        "collected": "false"
+    },
+    "OP01-096_p1": {
+        "deck": "OP01",
+        "card_code": "OP01-096",
+        "rarity": "SR",
+        "kind": "CHARACTER",
+        "text": "Effect[On Play] DON!! −2 (You may return the specified number of DON!! cards from your field to your DON!! deck.): K.O. up to 1 of your opponent's Characters with a cost of 3 or less and up to 1 of your opponent's Characters with a cost of 2 or less.",
+        "name": "King",
+        "images": "OP01-096_p1.png",
+        "collected": "false"
+    },
+    "OP01-097": {
+        "deck": "OP01",
+        "card_code": "OP01-097",
+        "rarity": "R",
+        "kind": "CHARACTER",
+        "text": "Effect[On Play] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): This Character gains [Rush] during this turn. Then, give up to 1 of your opponent's Characters −2000 power during this turn.(This card can attack on the turn in which it is played.)",
+        "name": "Queen",
+        "images": "OP01-097.png",
+        "collected": "false"
+    },
+    "OP01-097_p1": {
+        "deck": "OP01",
+        "card_code": "OP01-097",
+        "rarity": "R",
+        "kind": "CHARACTER",
+        "text": "Effect[On Play] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): This Character gains [Rush] during this turn. Then, give up to 1 of your opponent's Characters −2000 power during this turn.(This card can attack on the turn in which it is played.)",
+        "name": "Queen",
+        "images": "OP01-097_p1.png",
+        "collected": "false"
+    },
+    "OP01-098": {
+        "deck": "OP01",
+        "card_code": "OP01-098",
+        "rarity": "UC",
+        "kind": "CHARACTER",
+        "text": "Effect[On Play] Reveal up to 1 [Artificial Devil Fruit SMILE] from your deck and add it to your hand. Then, shuffle your deck.",
+        "name": "Kurozumi Orochi",
+        "images": "OP01-098.png",
+        "collected": "false"
+    },
+    "OP01-099": {
+        "deck": "OP01",
+        "card_code": "OP01-099",
+        "rarity": "C",
+        "kind": "CHARACTER",
+        "text": "Effect{Kurozumi Clan} type Characters other than your [Kurozumi Semimaru] cannot be K.O.'d in battle.",
+        "name": "Kurozumi Semimaru",
+        "images": "OP01-099.png",
+        "collected": "false"
+    },
+    "OP01-100": {
+        "deck": "OP01",
+        "card_code": "OP01-100",
+        "rarity": "C",
+        "kind": "CHARACTER",
+        "text": "Effect[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+        "name": "Kurozumi Higurashi",
+        "images": "OP01-100.png",
+        "collected": "false"
+    },
+    "OP01-101": {
+        "deck": "OP01",
+        "card_code": "OP01-101",
+        "rarity": "UC",
+        "kind": "CHARACTER",
+        "text": "Effect[DON!! x1] [When Attacking] You may trash 1 card from your hand: Add up to 1 DON!! card from your DON!! deck and rest it.",
+        "name": "Sasaki",
+        "images": "OP01-101.png",
+        "collected": "false"
+    },
+    "OP01-102": {
+        "deck": "OP01",
+        "card_code": "OP01-102",
+        "rarity": "R",
+        "kind": "CHARACTER",
+        "text": "Effect[When Attacking] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Your opponent trashes 1 card from their hand.",
+        "name": "Jack",
+        "images": "OP01-102.png",
+        "collected": "false"
+    },
+    "OP01-102_p1": {
+        "deck": "OP01",
+        "card_code": "OP01-102",
+        "rarity": "R",
+        "kind": "CHARACTER",
+        "text": "Effect[When Attacking] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Your opponent trashes 1 card from their hand.",
+        "name": "Jack",
+        "images": "OP01-102_p1.png",
+        "collected": "false"
+    },
+    "OP01-103": {
+        "deck": "OP01",
+        "card_code": "OP01-103",
+        "rarity": "C",
+        "kind": "CHARACTER",
+        "text": "Effect-",
+        "name": "Scratchmen Apoo",
+        "images": "OP01-103.png",
+        "collected": "false"
+    },
+    "OP01-104": {
+        "deck": "OP01",
+        "card_code": "OP01-104",
+        "rarity": "C",
+        "kind": "CHARACTER",
+        "text": "Effect-",
+        "name": "Speed",
+        "images": "OP01-104.png",
+        "collected": "false"
+    },
+    "OP01-105": {
+        "deck": "OP01",
+        "card_code": "OP01-105",
+        "rarity": "C",
+        "kind": "CHARACTER",
+        "text": "Effect[On Play] Choose 2 cards from your opponent's hand; your opponent reveals those cards.",
+        "name": "Bao Huang",
+        "images": "OP01-105.png",
+        "collected": "false"
+    },
+    "OP01-106": {
+        "deck": "OP01",
+        "card_code": "OP01-106",
+        "rarity": "UC",
+        "kind": "CHARACTER",
+        "text": "Effect[On Play] Add up to 1 DON!! card from your DON!! deck and rest it.",
+        "name": "Basil Hawkins",
+        "images": "OP01-106.png",
+        "collected": "false"
+    },
+    "OP01-107": {
+        "deck": "OP01",
+        "card_code": "OP01-107",
+        "rarity": "C",
+        "kind": "CHARACTER",
+        "text": "Effect-",
+        "name": "Babanuki",
+        "images": "OP01-107.png",
+        "collected": "false"
+    },
+    "OP01-108": {
+        "deck": "OP01",
+        "card_code": "OP01-108",
+        "rarity": "UC",
+        "kind": "CHARACTER",
+        "text": "Effect[On K.O.] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): K.O. up to 1 of your opponent's Characters with a cost of 5 or less.",
+        "name": "Hitokiri Kamazo",
+        "images": "OP01-108.png",
+        "collected": "false"
+    },
+    "OP01-109": {
+        "deck": "OP01",
+        "card_code": "OP01-109",
+        "rarity": "UC",
+        "kind": "CHARACTER",
+        "text": "Effect[DON!! x1] [Your Turn] If you have 8 or more DON!! cards on your field, this Character gains +2000 power.",
+        "name": "Who's.Who",
+        "images": "OP01-109.png",
+        "collected": "false"
+    },
+    "OP01-109_p1": {
+        "deck": "OP01",
+        "card_code": "OP01-109",
+        "rarity": "UC",
+        "kind": "CHARACTER",
+        "text": "Effect[DON!! x1] [Your Turn] If you have 8 or more DON!! cards on your field, this Character gains +2000 power.",
+        "name": "Who's.Who",
+        "images": "OP01-109_p1.png",
+        "collected": "false"
+    },
+    "OP01-110": {
+        "deck": "OP01",
+        "card_code": "OP01-110",
+        "rarity": "C",
+        "kind": "CHARACTER",
+        "text": "Effect-",
+        "name": "Fukurokuju",
+        "images": "OP01-110.png",
+        "collected": "false"
+    },
+    "OP01-111": {
+        "deck": "OP01",
+        "card_code": "OP01-111",
+        "rarity": "R",
+        "kind": "CHARACTER",
+        "text": "Effect[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Block] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): This Character gains +1000 power during this turn.",
+        "name": "Black Maria",
+        "images": "OP01-111.png",
+        "collected": "false"
+    },
+    "OP01-112": {
+        "deck": "OP01",
+        "card_code": "OP01-112",
+        "rarity": "R",
+        "kind": "CHARACTER",
+        "text": "Effect[Activate: Main] [Once Per Turn] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): This Character can also attack your opponent's active Characters during this turn.",
+        "name": "Page One",
+        "images": "OP01-112.png",
+        "collected": "false"
+    },
+    "OP01-113": {
+        "deck": "OP01",
+        "card_code": "OP01-113",
+        "rarity": "C",
+        "kind": "CHARACTER",
+        "text": "Effect[On K.O.] Add up to 1 DON!! card from your DON!! deck and rest it.",
+        "name": "Holedem",
+        "images": "OP01-113.png",
+        "collected": "false"
+    },
+    "OP01-114": {
+        "deck": "OP01",
+        "card_code": "OP01-114",
+        "rarity": "R",
+        "kind": "CHARACTER",
+        "text": "Effect[On Play] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Your opponent trashes 1 card from their hand.",
+        "name": "X.Drake",
+        "images": "OP01-114.png",
+        "collected": "false"
+    },
+    "OP01-115": {
+        "deck": "OP01",
+        "card_code": "OP01-115",
+        "rarity": "C",
+        "kind": "EVENT",
+        "text": "Effect[Main] K.O. up to 1 of your opponent's Characters with a cost of 2 or less, then add up to 1 DON!! card from your DON!! deck and set it as active.",
+        "name": "Elephant's Marchoo",
+        "images": "OP01-115.png",
+        "collected": "false"
+    },
+    "OP01-116": {
+        "deck": "OP01",
+        "card_code": "OP01-116",
+        "rarity": "UC",
+        "kind": "EVENT",
+        "text": "Effect[Main] Look at 5 cards from the top of your deck; play up to 1 {SMILE} type Character card with a cost of 3 or less. Then, place the rest at the bottom of your deck in any order.",
+        "name": "Artificial Devil Fruit SMILE",
+        "images": "OP01-116.png",
+        "collected": "false"
+    },
+    "OP01-117": {
+        "deck": "OP01",
+        "card_code": "OP01-117",
+        "rarity": "C",
+        "kind": "EVENT",
+        "text": "Effect[Main] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Rest up to 1 of your opponent's Characters with a cost of 6 or less.",
+        "name": "Sheep's Horn",
+        "images": "OP01-117.png",
+        "collected": "false"
+    },
+    "OP01-118": {
+        "deck": "OP01",
+        "card_code": "OP01-118",
+        "rarity": "UC",
+        "kind": "EVENT",
+        "text": "Effect[Counter] DON!! −2 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Up to 1 of your Leader or Character cards gains +2000 power during this battle. Then, draw 1 card.",
+        "name": "Ulti-Mortar",
+        "images": "OP01-118.png",
+        "collected": "false"
+    },
+    "OP01-119": {
+        "deck": "OP01",
+        "card_code": "OP01-119",
+        "rarity": "R",
+        "kind": "EVENT",
+        "text": "Effect[Counter] Up to 1 of your Leader or Character cards gains +4000 power during this battle. Then, if you have 2 or less Life cards, add up to 1 DON!! card from your DON!! deck and rest it.",
+        "name": "Thunder Bagua",
+        "images": "OP01-119.png",
+        "collected": "false"
+    },
+    "OP01-120": {
+        "deck": "OP01",
+        "card_code": "OP01-120",
+        "rarity": "SEC",
+        "kind": "CHARACTER",
+        "text": "Effect[Rush] (This card can attack on the turn in which it is played.)[When Attacking] Your opponent cannot activate a [Blocker] Character that has 2000 or less power during this battle.",
+        "name": "Shanks",
+        "images": "OP01-120.png",
+        "collected": "false"
+    },
+    "OP01-120_p1": {
+        "deck": "OP01",
+        "card_code": "OP01-120",
+        "rarity": "SEC",
+        "kind": "CHARACTER",
+        "text": "Effect[Rush] (This card can attack on the turn in which it is played.)[When Attacking] Your opponent cannot activate a [Blocker] Character that has 2000 or less power during this battle.",
+        "name": "Shanks",
+        "images": "OP01-120_p1.png",
+        "collected": "false"
+    },
+    "OP01-120_p2": {
+        "deck": "OP01",
+        "card_code": "OP01-120",
+        "rarity": "SEC",
+        "kind": "CHARACTER",
+        "text": "Effect[Rush] (This card can attack on the turn in which it is played.)[When Attacking] Your opponent cannot activate a [Blocker] Character that has 2000 or less power during this battle.",
+        "name": "Shanks",
+        "images": "OP01-120_p2.png",
+        "collected": "false"
+    },
+    "OP01-121": {
+        "deck": "OP01",
+        "card_code": "OP01-121",
+        "rarity": "SEC",
+        "kind": "CHARACTER",
+        "text": "EffectAlso treat this card's name as [Kouzuki Oden] according to the rules.[Double Attack] (This card deals 2 damage.)[Banish] (When this card deals damage, the target card is trashed without activating its Trigger.)",
+        "name": "Yamato",
+        "images": "OP01-121.png",
+        "collected": "false"
+    },
+    "OP01-121_p1": {
+        "deck": "OP01",
+        "card_code": "OP01-121",
+        "rarity": "SEC",
+        "kind": "CHARACTER",
+        "text": "EffectAlso treat this card's name as [Kouzuki Oden] according to the rules.[Double Attack] (This card deals 2 damage.)[Banish] (When this card deals damage, the target card is trashed without activating its Trigger.)",
+        "name": "Yamato",
+        "images": "OP01-121_p1.png",
+        "collected": "false"
+    }
+}

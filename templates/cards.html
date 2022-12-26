@@ -1,0 +1,65 @@
+{%  extends "base.html" %}
+
+{%  block cards %}
+    <div class="row">
+    {% for i in cards.keys()%}
+        <div id="{{i}}" class=" card col-sm-4 col-lg-2">
+            <div class="card-header">
+                {{cards[i]["card_code"]}}
+                {{cards[i]["name"]}}
+            </div>
+            <div class="card-footer">
+                <div class="row">
+                    <div class="col text-center">
+                        {% if cards[i]["collected"] == 'false' %}
+                        <div class="card-image">
+                        <img id="{{i}}-image" style="opacity: .5" class="img-thumbnail popover-image" data-bs-toggle="modal" data-bs-target="#{{i}}-Modal" src="static/Decks/{{cards[i]['deck']}}/CardImages/{{cards[i]['images']}}" alt="{{i}}">
+                         </div>
+                        <button id="add-btn-{{i}}" type="button" onclick="add_to_local_data('{{i}}', {{cards[i]}},{{cards}})" class="btn btn-success">ADD</button>
+                        <button  id="rem-btn-{{i}}" type="button" onclick="remove_from_local_data('{{i}}')" class="btn btn-danger" disabled>REMOVE</button>
+                        {% else %}
+                        <div class="card-image">
+                        <img id="{{i}}-image" class="img-thumbnail popover-image" data-bs-toggle="modal" data-bs-target="#{{i}}-Modal" src="static/Decks/{{cards[i]['deck']}}/CardImages/{{cards[i]['images']}}" alt="{{i}}">
+                         </div>
+                        <button id="add-btn-{{i}}" type="button" onclick="add_to_local_data('{{i}}', {{cards[i]}},{{cards}})" class="btn btn-success" disabled>ADD</button>
+                        <button  id="rem-btn-{{i}}" type="button" onclick="remove_from_local_data('{{i}}')" class="btn btn-danger" >REMOVE</button>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="{{i}}-Modal" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+
+          <div class="modal-header">
+            <h5 class="modal-title" id="ModalLabel">{{cards[i]["card_code"]}} {{cards[i]["name"]}}</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+
+          <div class="modal-body">
+                <img class="img-thumbnail popover-image" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                     src="static/Decks/{{cards[i]['deck']}}/CardImages/{{cards[i]['images']}}" alt="">
+                <div class="card-text">
+                    <p>{{cards[i]["text"]}}</p>
+                </div>
+          </div>
+
+            <div class="card-footer">
+                <div class="row">
+                    <div class="col text-center">
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+    </div>
+
+{% endblock %}
+
