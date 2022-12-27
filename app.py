@@ -25,32 +25,14 @@ def get_cards():
     return f
 
 
-@app.route('/collection', methods=['POST', 'GET'])
+@app.route('/collection')
 def collection():
-    results = {}
+
     if request.method == 'POST':
-        current_collection = request.form
-        card_keys = current_collection['collection'].split(',')
-        card_keys.sort()
-    try:
-        collected(card_keys)
-        cards = get_cards()
-        for i in card_keys:
-            print(i)
-            if cards[i]['collected'] == 'true':
-                results[i] = cards[i]
-    except:
-        results = {}
-    print(results)
+        return render_template('collection.html')
 
     if request.method == 'GET':
-        cards = get_cards()
-        for card in cards:
-            if cards[card]['collected'] == 'true':
-                results[card] = cards[card]
-
-
-    return render_template('collection.html', cards=results)
+        return render_template('collection.html')
 
 
 # ========================================
@@ -109,3 +91,65 @@ def load_cards():
 
 if __name__ == '__main__':
     app.run(host='localhost', port=5000, debug=True)
+
+
+
+'''
+
+
+<!--
+<h1>COLLECTION</h1>
+
+    <div class="row">
+    {% for i in cards.keys()%}
+        <div id="{{i}}" class=" card collected col-sm-4 col-lg-2">
+            <div class="card-header">
+                {{cards[i]["card_code"]}}
+                {{cards[i]["name"]}}
+            </div>
+            <div class="card-image">
+                <img class="img-thumbnail popover-image" data-bs-toggle="modal" data-bs-target="#{{i}}-Modal" src="static/Decks/{{cards[i]['deck']}}/CardImages/{{cards[i]['images']}}" alt="{{i}}">
+            </div>
+            <div class="card-footer">
+                <div class="row">
+                    <div class="col text-center">
+
+                          <form action="/collection" method="post">
+                          <button onclick="collection_remove_from_local_data('{{i}}')" id="collection-button" class="btn btn-danger" name="collection"  >REMOVE</button>
+                          </form>
+                    </div>
+                </div>
+            
+        </div>
+
+ Modal
+    <div class="modal fade" id="{{i}}-Modal" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+
+          <div class="modal-header">
+            <h5 class="modal-title" id="ModalLabel">{{cards[i]["card_code"]}} {{cards[i]["name"]}}</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+
+          <div class="modal-body">
+                <img class="img-thumbnail popover-image" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                     src="static/Decks/{{cards[i]['deck']}}/CardImages/{{cards[i]['images']}}" alt="">
+                <div class="card-text">
+                    <p>{{cards[i]["text"]}}</p>
+                </div>
+          </div>
+
+            <div class="card-footer">
+                <div class="row">
+                    <div class="col text-center">
+                        <
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+    </div>
+-->'''

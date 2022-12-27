@@ -7,7 +7,7 @@
         "text": "Effect[Activate: Main] [Once Per Turn] Give this Leader or 1 of your Characters up to 1 rested DON!! card.",
         "name": "Monkey.D.Luffy",
         "images": "ST01-001.png",
-        "collected": "true"
+        "collected": "false"
     },
     "ST01-002": {
         "deck": "ST01",
@@ -17,7 +17,7 @@
         "text": "Effect[DON!! x2] [When Attacking] Your opponent cannot activate a [Blocker] Character that has 5000 or more power during this battle.",
         "name": "Usopp",
         "images": "ST01-002.png",
-        "collected": "true"
+        "collected": "false"
     },
     "ST01-003": {
         "deck": "ST01",
@@ -97,7 +97,7 @@
         "text": "Effect-",
         "name": "Franky",
         "images": "ST01-010.png",
-        "collected": "true"
+        "collected": "false"
     },
     "ST01-011": {
         "deck": "ST01",
@@ -107,7 +107,7 @@
         "text": "Effect[On Play] Give up to 2 rested DON!! cards to your Leader or 1 of your Characters.",
         "name": "Brook",
         "images": "ST01-011.png",
-        "collected": "true"
+        "collected": "false"
     },
     "ST01-012": {
         "deck": "ST01",

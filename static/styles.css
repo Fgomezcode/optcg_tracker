@@ -6,6 +6,7 @@ body {
     top: 0;
     transition: top ease 0.5s;
 }
+
 .card:hover {
     z-index: 5;
     top: -10px;

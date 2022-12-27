@@ -8,25 +8,25 @@
                 {{cards[i]["card_code"]}}
                 {{cards[i]["name"]}}
             </div>
-            <div class="card-footer">
+
                 <div class="row">
                     <div class="col text-center">
                         {% if cards[i]["collected"] == 'false' %}
                         <div class="card-image">
                         <img id="{{i}}-image" style="opacity: .5" class="img-thumbnail popover-image" data-bs-toggle="modal" data-bs-target="#{{i}}-Modal" src="static/Decks/{{cards[i]['deck']}}/CardImages/{{cards[i]['images']}}" alt="{{i}}">
                          </div>
-                        <button id="add-btn-{{i}}" type="button" onclick="add_to_local_data('{{i}}', {{cards[i]}},{{cards}})" class="btn btn-success">ADD</button>
+                        <button id="add-btn-{{i}}" type="button" onclick="add_to_local_data('{{i}}', JSON.stringify({{cards[i]}}))" class="btn btn-success">ADD</button>
                         <button  id="rem-btn-{{i}}" type="button" onclick="remove_from_local_data('{{i}}')" class="btn btn-danger" disabled>REMOVE</button>
                         {% else %}
                         <div class="card-image">
                         <img id="{{i}}-image" class="img-thumbnail popover-image" data-bs-toggle="modal" data-bs-target="#{{i}}-Modal" src="static/Decks/{{cards[i]['deck']}}/CardImages/{{cards[i]['images']}}" alt="{{i}}">
                          </div>
-                        <button id="add-btn-{{i}}" type="button" onclick="add_to_local_data('{{i}}', {{cards[i]}},{{cards}})" class="btn btn-success" disabled>ADD</button>
+                        <button id="add-btn-{{i}}" type="button" onclick="add_to_local_data('{{i}}', {{cards[i]}})" class="btn btn-success" disabled>ADD</button>
                         <button  id="rem-btn-{{i}}" type="button" onclick="remove_from_local_data('{{i}}')" class="btn btn-danger" >REMOVE</button>
                         {% endif %}
                     </div>
                 </div>
-            </div>
+
         </div>
 
     <!-- Modal -->
