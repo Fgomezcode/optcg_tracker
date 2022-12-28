@@ -1,10 +1,11 @@
 body {
-    background-color: lightsalmon;
+    background-color: black;
 }
 
 .card{
     top: 0;
     transition: top ease 0.5s;
+
 }
 
 .card:hover {
@@ -29,6 +30,3 @@ body {
     padding:5px;
 }
 
-.collected{
-    border: 3px solid goldenrod;
-}

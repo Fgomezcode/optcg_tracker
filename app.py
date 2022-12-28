@@ -35,24 +35,24 @@ def load_cards():
     search_query = None
     cards_in_collection = None
     if request.method == 'GET':
-        search = request.form
-        try:
-            data= search['query']
-            print(data,search)
-        except KeyError:
-            data = search['search_bar'].capitalize()
-
-        return render_template('cards.html', deck=data)
+        return render_template('cards.html')
 
     if request.method == 'POST':
         search = request.form
         try:
             data = search['query']
-            print(data,search)
+            if 'showMissing' in search.keys():
+                isMissing = search['showMissing']
+            else:
+                isMissing = 'false'
+            print(data, search)
         except KeyError:
+            isMissing = 'false'
             data = search['search_bar'].capitalize()
+        return render_template('cards.html', deck=data, miss=isMissing)
 
-        return render_template('cards.html', deck=data)
+    isMissing = 'false'
+    return render_template('cards.html', deck=data, miss=isMissing)
 
 
 

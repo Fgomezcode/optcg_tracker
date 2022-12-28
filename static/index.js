@@ -48,7 +48,50 @@ function remove_from_local_data(id ){
     localStorage.removeItem(id);
 }
 
-function create_card_display(deck){ // rename this function
+
+function display_contents(deck, missing){
+    if(missing === 'true'){
+        let code = deck
+        let parent = document.getElementById('cards-page-display')
+        let cards = JSON.parse(localStorage['CardData']);
+        let keys = Object.keys(cards)
+        const row = document.createElement('div');
+        row.setAttribute('class',"row");
+        if(parent != null){
+            for(let key of keys){
+                if((cards[key]['deck'] === code && cards[key]['collected'] === 'false') || cards[key]['name'].includes(code)){
+                    let title = document.createElement('h1')
+                    title.setAttribute('id', 'title')
+                    row.append(title)
+                    let x = cards[key];
+                    let card = create_display_card(x, key, cards)
+                    parent.append(card)
+                                    var modalHTML =
+` <div class="modal fade" id="${x['card_code']}-Modal" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">`+
+      `<div class="modal-dialog">`+
+        `<div class="modal-content">`+
+          `<div class="modal-header">`+
+            `<h5 class="modal-title" id="ModalLabel">${x["card_code"]} ${x["name"]}</h5>`+
+            `<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button></div>`+
+          `<div class="modal-body">`+
+                `<img class="img-thumbnail popover-image" src="static/Decks/${x["deck"]}/CardImages/${x["images"]}" alt="">`+
+                `<div class="card-text">`+
+                    `<p>${x["text"]}</p>`+
+                `</div></div></div></div></div>`;
+                parent.innerHTML = parent.innerHTML + modalHTML
+
+                    document.getElementById('p-head').innerHTML = `${code}`
+                }
+            }
+    }
+
+    }else{
+        create_search_display(deck);
+    }
+
+}
+
+function create_search_display(deck){ // rename this function
     let code = deck
     let parent = document.getElementById('cards-page-display')
     let cards = JSON.parse(localStorage['CardData']);
@@ -59,30 +102,45 @@ function create_card_display(deck){ // rename this function
         for(let key of keys){
             if(cards[key]['deck'] === code || cards[key]['name'].includes(code)){
                 let title = document.createElement('h1')
-                title.setAttribute('id', 'felipe')
+                title.setAttribute('id', 'title')
                 row.append(title)
                 let x = cards[key];
-                let card = create_display_card(x, key, cards)
+                let card = create_card_for_search(x, key, cards)
                 parent.append(card)
-                document.getElementById('p-head').innerHTML = `Deck: ${code}`
+                                var modalHTML =
+` <div class="modal fade" id="${x['card_code']}-Modal" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">`+
+      `<div class="modal-dialog">`+
+        `<div class="modal-content">`+
+          `<div class="modal-header">`+
+            `<h5 class="modal-title" id="ModalLabel">${x["card_code"]} ${x["name"]}</h5>`+
+            `<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button></div>`+
+          `<div class="modal-body">`+
+                `<img class="img-thumbnail popover-image" src="static/Decks/${x["deck"]}/CardImages/${x["images"]}" alt="">`+
+                `<div class="card-text">`+
+                    `<p>${x["text"]}</p>`+
+                `</div></div></div></div></div>`;
+                parent.innerHTML = parent.innerHTML + modalHTML
+
+                document.getElementById('p-head').innerHTML = `${code}`
             }
         }
     }
-
 }
 
-function create_display_card(x, i, cards){ // card in
+function create_card_for_search(x, i, cards){ // card in
     let card = document.createElement('div');
             card.setAttribute('id', `${x['card_code']}`);
-            card.setAttribute('class', 'card collected col-sm-2 col-lg-2');
+            card.setAttribute('class', 'card  col-lg-2 col-3 ');
     let card_header = document.createElement('div');
         card_header.setAttribute('class', 'card-header');
-        card_header.innerText = `${x['card_code']}  ${x['name']}`;
+    let card_title = document.createElement('h6')
+        card_header.append(card_title)
+        card_title.setAttribute('class','card-title')
+        card_title.innerText = `${x['card_code']}  ${x['name']}`;
+
     let card_image_div = document.createElement('div');
         card_image_div.setAttribute('class', 'card-image')
-
     let card_image = document.createElement('img');
-
         card_image.setAttribute('id', `${i}-image`)
         card_image.setAttribute('class', 'img-thumbnail popover-image');
         card_image.setAttribute('data-bs-toggle', 'modal');
@@ -100,14 +158,15 @@ function create_display_card(x, i, cards){ // card in
 
     let add_card_button = document.createElement('button')
         add_card_button.innerText = 'ADD'
-        add_card_button.setAttribute('class', 'btn btn-success')
+        add_card_button.setAttribute('class', 'btn btn-success ')
         add_card_button.setAttribute('type', 'button')
         add_card_button.setAttribute('id', `add-btn-${i}`)
         add_card_button.setAttribute('onclick', `add_to_local_data( '${i}', ${JSON.stringify(cards[i])})`)
-
+    let b_div = document.createElement('div')
+        b_div.setAttribute('class', "d-grid gap-2")
     let remove_card_button = document.createElement('button')
         remove_card_button.innerText = 'REMOVE'
-        remove_card_button.setAttribute('class', 'btn btn-danger')
+        remove_card_button.setAttribute('class', 'btn btn-danger ')
         remove_card_button.setAttribute('id', `rem-btn-${i}`)
         remove_card_button.setAttribute('name', 'collection')
         remove_card_button.setAttribute('onclick', ` remove_from_local_data("${i}" )`)
@@ -121,8 +180,9 @@ function create_display_card(x, i, cards){ // card in
         add_card_button.setAttribute('disabled','')
     }
 
-    card_button_form.append(add_card_button)
-    card_button_form.append(remove_card_button)
+    b_div.append(add_card_button)
+    b_div.append(remove_card_button)
+    card_button_form.append(b_div)
     card_button_col.append(card_button_form)
     card_row.append(card_button_col)
     card_footer.append(card_row)
@@ -135,6 +195,7 @@ function create_display_card(x, i, cards){ // card in
 }
 
 function create_collection(){
+
     let parent = document.getElementById('collection-display')
     let collection_keys = Object.keys(localStorage);
     collection_keys.sort()
@@ -144,20 +205,37 @@ function create_collection(){
         for (let key of collection_keys) {
             if (key !== 'CardData') {
                 let x = JSON.parse(localStorage.getItem(key));
-                let card = create_card(x, key)
+                let card = create_card_for_collection(x, key)
                 parent.append(card)
+
+                var modalHTML =
+` <div class="modal fade" id="${x['card_code']}-Modal" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">`+
+      `<div class="modal-dialog">`+
+        `<div class="modal-content">`+
+          `<div class="modal-header">`+
+            `<h5 class="modal-title" id="ModalLabel">${x["card_code"]} ${x["name"]}</h5>`+
+            `<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button></div>`+
+          `<div class="modal-body">`+
+                `<img class="img-thumbnail popover-image" src="static/Decks/${x["deck"]}/CardImages/${x["images"]}" alt="">`+
+                `<div class="card-text">`+
+                    `<p>${x["text"]}</p>`+
+                `</div></div></div></div></div>`;
+                parent.innerHTML = parent.innerHTML + modalHTML
             }
         }
     }
 }
 
-function create_card(x, i){
+function create_card_for_collection(x, i){
     let card = document.createElement('div');
-            card.setAttribute('id', `${i}`);
-            card.setAttribute('class', 'card collected col-sm-3 col-lg-3 ');
+        card.setAttribute('id', `${i}`);
+        card.setAttribute('class', 'card col-lg-2 col-3 ');
     let card_header = document.createElement('div');
-        card_header.setAttribute('class', 'card-header');
-        card_header.innerText = `${x['card_code']}  ${x['name']}`;
+        card_header.setAttribute('class', 'd-grid gap-2');
+    let card_title = document.createElement('h6')
+        card_header.append(card_title)
+        card_title.setAttribute('class','card-title')
+        card_title.innerText = `${x['card_code']}  ${x['name']}`;
     let card_image_div = document.createElement('div');
         card_image_div.setAttribute('class', 'card-image')
     let card_image = document.createElement('img');
@@ -174,6 +252,8 @@ function create_card(x, i){
     let card_button_col = document.createElement('div')
         card_button_col.setAttribute('class', 'col text-center')
     let card_button_form = document.createElement('form')
+    let b_div = document.createElement('div')
+        b_div.setAttribute('class', "d-grid gap-2")
     let card_button = document.createElement('button')
         card_button.setAttribute('type', 'button')
         card_button.setAttribute('onclick', `collection_remove_from_local_data("${i}")`)
@@ -181,8 +261,15 @@ function create_card(x, i){
         card_button.setAttribute('class', 'btn btn-danger')
         card_button.setAttribute('name', 'collection')
         card_button.innerText = 'REMOVE'
+
+
+
+
+
+
     //-------
-    card_button_form.append(card_button)
+    b_div.append(card_button)
+    card_button_form.append(b_div)
     card_button_col.append(card_button_form)
     card_row.append(card_button_col)
     card_footer.append(card_row)
@@ -209,5 +296,10 @@ function get_local_data(){
     let x = document.getElementById('return-current-collection')
     x.value = Object.keys(localStorage)
 }
+
+
+
+
+
 
 
